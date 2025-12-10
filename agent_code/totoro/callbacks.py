@@ -166,48 +166,116 @@ def act_as_killer(self, game_state, valid_actions, enemies, bomb_xys):
     
     arena = game_state['field']
     _, _, _, (x, y) = game_state['self']
+    coins = game_state['coins']
     
-    cols = range(1, arena.shape[0] - 1)
-    rows = range(1, arena.shape[0] - 1)
-    crates = [(r, c) for r in cols for c in rows if (arena[r, c] == 1)]
-    targets = enemies + crates
-    targets = [t for t in targets if t not in bomb_xys]
-
+    # 폭탄 위치와 적 위치는 장애물로 간주 (안전한 길찾기 위해)
     free_space = arena == 0
-    d = look_for_targets(free_space, (x, y), targets, self.logger)
-    \
-    # 이동 방향 설정
+    for bx, by in bomb_xys:
+        free_space[bx, by] = False
+    
+    # -----------------------------------------------------------
+    # [1. 이동 목표(d) 설정]
+    # 적 -> 코인 순서로만 이동. (상자는 이동 목표가 아니라 파괴 목표임)
+    # -----------------------------------------------------------
+    
+    # 1순위: 적 추격
+    active_enemies = [e for e in enemies if e not in bomb_xys]
+    d = look_for_targets(free_space, (x, y), active_enemies, self.logger)
+    
+    # 2순위: 코인 (적이 멀거나 없으면 파밍)
+    if d is None:
+        d = look_for_targets(free_space, (x, y), coins, self.logger)
+
+    # -----------------------------------------------------------
+    # [2. 스택 쌓기 (LIFO: 나중에 넣을수록 중요함)]
+    # 순서: 랜덤 < 이동(d) < 폭탄설치 < 생존회피
+    # -----------------------------------------------------------
+
+    # (1) 목표를 향한 이동
     if d == (x, y - 1): action_ideas.append('UP')
     if d == (x, y + 1): action_ideas.append('DOWN')
     if d == (x - 1, y): action_ideas.append('LEFT')
     if d == (x + 1, y): action_ideas.append('RIGHT')
-    if d is None: action_ideas.append('WAIT')
+    if d is None: action_ideas.append('WAIT') # 갈 곳 없으면 대기 (하지만 아래 BOMB에 덮어씌워질 수 있음)
 
-    # [수정된 폭탄 전략] is_safe_to_bomb 함수 활용
-    can_bomb = 'BOMB' in valid_actions and is_safe_to_bomb(game_state, x, y)
-
-    # 1. 적 공격 (거리 2칸 이내)
-    if len(enemies) > 0 and can_bomb:
-        if (min(abs(xy[0] - x) + abs(xy[1] - y) for xy in enemies)) <= 2:
-             action_ideas.append('BOMB')
-             
-    # 2. 상자 파밍 (막힌 길 뚫기)
-    # 기존에는 빈칸이 2개 이상이어야 놨지만, 이제는 탈출로만 확인되면(is_safe_to_bomb) 놓음
-    if d == (x, y) and can_bomb:
-        # 진행 방향(d)이 막혀있거나 상자 옆이면
-        if ([arena[x+1,y], arena[x-1,y], arena[x,y+1], arena[x,y-1]].count(1) > 0):
-            action_ideas.append('BOMB')
-
-    # 생존 본능 (가장 중요)
-    action_ideas.extend(get_escape_actions(x, y, game_state['bombs']))
+    # (2) 폭탄 설치 판단 (공격 또는 탈출)
+    should_bomb = False
     
+    # 상황 A: 적을 잡을 수 있을 때 (거리 2칸 이내)
+    if enemies:
+        dist_to_enemy = min([abs(ex - x) + abs(ey - y) for ex, ey in enemies])
+        if dist_to_enemy <= 2:
+            should_bomb = True
+            
+    # 상황 B: [핵심 수정] 갈 곳이 없는데(d is None) 바로 옆에 상자가 있을 때 (갇힘 탈출)
+    if d is None:
+        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+            nx, ny = x + dx, y + dy
+            if 0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1]:
+                # 내 옆에 상자(1)가 있으면 폭파
+                if arena[nx, ny] == 1:
+                    should_bomb = True
+                    break
+
+    # 폭탄 설치 실행 (안전 확인 필수)
+    if should_bomb and 'BOMB' in valid_actions:
+        if is_safe_to_bomb(game_state, (x, y)):
+             action_ideas.append('BOMB') # WAIT보다 나중에 넣어서 덮어씌움!
+
+    # (3) [생존] 최우선 회피 (가장 마지막에 넣어 최우선 실행)
+    escape_moves = get_escape_actions(x, y, game_state['bombs'])
+    if escape_moves:
+        action_ideas.extend(escape_moves)
+    
+    # 최종 행동 결정
     while len(action_ideas) > 0:
         a = action_ideas.pop()
         if a in valid_actions:
             if a == 'BOMB': self.bomb_history.append((x, y))
             return a
+            
     return 'WAIT'
 
+def is_safe_to_bomb(game_state, my_pos):
+    """
+    수정된 버전: (x, y) 튜플을 하나의 인자(my_pos)로 받도록 변경
+    """
+    x, y = my_pos # [중요] 여기서 튜플을 풉니다
+    arena = game_state['field']
+    bombs = game_state['bombs']
+    
+    # 1. 이미 위험한 자리면 설치 불가 (연쇄 폭발 방지)
+    current_mask = get_blast_mask(arena, bombs)
+    if current_mask[x, y]: return False
+
+    # 2. 미래 시뮬레이션
+    simulated_bombs = bombs + [((x, y), 4)] # BOMB_TIMER default 4
+    future_mask = get_blast_mask(arena, simulated_bombs)
+    
+    # BFS로 안전지대 도달 가능 여부 확인
+    queue = deque([(x, y, 0)])
+    visited = set([(x, y)])
+    
+    while queue:
+        cx, cy, step = queue.popleft()
+        
+        # 4초(폭발시간) 안에 안전지대(폭발 범위 밖)로 나갈 수 있으면 OK
+        if not future_mask[cx, cy]: return True
+        
+        if step >= 4: continue # 4초 지나도 못 나갔으면 의미 없음
+
+        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+            nx, ny = cx + dx, cy + dy
+            if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and 
+                arena[nx, ny] == 0 and (nx, ny) not in visited):
+                
+                # 폭탄 위는 지나갈 수 없음
+                if is_blocked_by_bomb((nx, ny), bombs): continue
+                
+                visited.add((nx, ny))
+                queue.append((nx, ny, step + 1))
+                
+    return False
 
 def act_as_lurer(self, game_state, valid_actions, enemies, bomb_xys):
     # 기본 이동 아이디어
@@ -276,3 +344,30 @@ def get_escape_actions(x, y, bombs):
             ideas.append('UP')
             ideas.append('DOWN')
     return ideas
+
+def get_blast_mask(arena, bombs):
+    """
+    현재 설치된 폭탄들이 터질 정확한 위치를 계산합니다 (벽에 막히는 것 고려).
+    True: 폭발 위험 있음 / False: 안전함
+    """
+    mask = np.zeros_like(arena, dtype=bool)
+    
+    for (bx, by), t in bombs:
+        mask[bx, by] = True # 폭탄 위치 자체는 위험
+        
+        # 4방향으로 화력(3칸) 퍼짐
+        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+            for i in range(1, 4): # 1~3칸
+                nx, ny = bx + (dx * i), by + (dy * i)
+                
+                # 맵 밖이면 중단
+                if not (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1]):
+                    break
+                
+                # 벽(-1)을 만나면 화염이 막힘 -> 즉시 중단 (벽 뒤는 안전)
+                if arena[nx, ny] == -1:
+                    break
+                
+                # 폭발 범위 마킹
+                mask[nx, ny] = True
+    return mask

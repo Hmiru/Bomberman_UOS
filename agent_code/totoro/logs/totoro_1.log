@@ -1,51 +1,31 @@
-2025-12-10 19:30:08,816 [totoro_1_code] DEBUG: Successfully entered setup code
-2025-12-10 19:30:09,049 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-10 19:30:09,049 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
-2025-12-10 19:30:09,135 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-10 19:30:09,135 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
-2025-12-10 19:30:09,229 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-10 19:30:09,229 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 19:30:09,335 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-10 19:30:09,335 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:09,432 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:09,432 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:09,535 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:09,535 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 19:30:09,634 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:09,635 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:09,728 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:09,728 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 19:30:09,834 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:09,835 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:09,931 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:09,931 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
-2025-12-10 19:30:10,036 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:10,037 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 19:30:10,136 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-10 19:30:10,136 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 19:30:10,263 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-10 19:30:10,263 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
-2025-12-10 19:30:10,388 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-10 19:30:10,388 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
-2025-12-10 19:30:10,519 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:10,519 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 19:30:10,544 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-10 19:30:10,544 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 19:30:10,655 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:10,655 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:10,831 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-10 19:30:10,831 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:10,890 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:10,891 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:11,007 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:11,008 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:11,086 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:11,086 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
-2025-12-10 19:30:11,211 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:11,211 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:11,284 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-10 19:30:11,284 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 19:30:11,391 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-10 19:30:11,391 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 19:30:11,506 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-10 19:30:11,506 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: WAIT
+2025-12-10 23:00:50,033 [totoro_1_code] DEBUG: Successfully entered setup code
+2025-12-10 23:00:50,278 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-10 23:00:50,278 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
+2025-12-10 23:00:50,359 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-10 23:00:50,359 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
+2025-12-10 23:00:50,453 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-10 23:00:50,454 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
+2025-12-10 23:00:50,553 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-10 23:00:50,554 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
+2025-12-10 23:00:50,656 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-10 23:00:50,656 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
+2025-12-10 23:00:50,754 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-10 23:00:50,755 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
+2025-12-10 23:00:50,856 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
+2025-12-10 23:00:50,856 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: WAIT
+2025-12-10 23:00:50,957 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
+2025-12-10 23:00:50,957 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
+2025-12-10 23:00:51,055 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
+2025-12-10 23:00:51,055 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
+2025-12-10 23:00:51,158 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
+2025-12-10 23:00:51,158 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
+2025-12-10 23:00:51,256 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
+2025-12-10 23:00:51,256 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
+2025-12-10 23:00:51,356 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
+2025-12-10 23:00:51,356 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
+2025-12-10 23:00:51,466 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-10 23:00:51,466 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
+2025-12-10 23:00:51,606 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-10 23:00:51,606 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
+2025-12-10 23:00:51,636 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-10 23:00:51,636 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: WAIT

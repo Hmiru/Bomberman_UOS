@@ -1,697 +1,179 @@
-2025-12-10 19:30:08,811 [totoro_0_code] DEBUG: Successfully entered setup code
-2025-12-10 19:30:09,048 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:09,048 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:09,134 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:09,135 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:09,228 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:09,229 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:09,334 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:09,334 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:09,432 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:09,432 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:09,535 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:09,535 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:09,634 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:09,634 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:09,727 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:09,727 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:09,834 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:09,834 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:09,930 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:09,930 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:10,036 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:10,036 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:10,135 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:10,135 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:10,262 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,262 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:10,387 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,387 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:10,518 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,519 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:10,543 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,543 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:10,655 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,655 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:10,830 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,830 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:10,890 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:10,890 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:11,007 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:11,007 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:11,086 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,086 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:11,211 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,211 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:11,283 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,283 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:11,390 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,390 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:11,505 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,506 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:11,584 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,584 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:11,684 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,684 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:11,808 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,808 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:11,902 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:11,902 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:12,011 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,012 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:12,084 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,084 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:12,195 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,195 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:12,315 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:12,315 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:12,394 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:12,394 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:12,495 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,495 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:12,606 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,606 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:12,710 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:12,711 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:12,798 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:12,798 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:12,889 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,889 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:12,995 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:12,995 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:13,099 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,099 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:13,195 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,195 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:13,291 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:13,291 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:13,392 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:13,392 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:13,488 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,488 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:13,596 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,596 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:13,692 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,692 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:13,810 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,811 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:13,889 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,889 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:13,990 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:13,990 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:14,109 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:14,109 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:14,209 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:14,210 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:14,309 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,309 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:14,389 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,389 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:14,490 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,490 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:14,616 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,616 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:14,718 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,718 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:14,812 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,812 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:14,918 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:14,918 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:15,015 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,015 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:15,094 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,094 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:15,163 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,163 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:15,320 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:15,320 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:15,403 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:15,403 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:15,502 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,503 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:15,601 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,601 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:15,717 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:15,718 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:15,794 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:15,794 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:15,894 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,895 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:15,996 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:15,996 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:16,093 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:16,093 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:16,190 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:16,190 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:16,307 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:16,308 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:16,394 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:16,394 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:16,503 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:16,503 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:16,595 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:16,595 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:16,690 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:16,691 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:16,800 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:16,800 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:16,893 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:16,894 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:17,020 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:17,021 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:17,099 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:17,099 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:17,201 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:17,201 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:17,325 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:17,325 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:17,420 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:17,420 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:17,516 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:17,516 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:17,612 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:17,612 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:17,701 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:17,701 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:17,790 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:17,791 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:17,901 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:17,901 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:18,018 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:18,018 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:18,102 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,102 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:18,203 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,204 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:18,319 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,319 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:18,425 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,426 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:18,501 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:18,501 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:18,602 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:18,603 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:18,721 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,721 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:18,820 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,820 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:18,906 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:18,906 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:19,023 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,023 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:19,123 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,123 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:19,217 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,217 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:19,302 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,302 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:19,398 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,398 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:19,510 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,510 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:19,618 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,618 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:19,708 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:19,708 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:19,819 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:19,819 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:19,906 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:19,906 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:20,006 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,006 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:20,119 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,119 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:20,217 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,217 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:20,322 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:20,322 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:20,424 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:20,425 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:20,507 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,508 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:20,607 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,607 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:20,726 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,726 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:20,837 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:20,838 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:21,084 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,084 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:21,146 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,146 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:21,268 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,268 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:21,378 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,378 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:21,383 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,384 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:21,464 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,464 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:21,572 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:21,572 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:21,672 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:21,672 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:21,767 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,768 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:21,851 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,851 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:21,981 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:21,981 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:22,068 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,068 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:22,156 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,157 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:22,258 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,258 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:22,380 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,380 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:22,462 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,462 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:22,558 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,559 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:22,674 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,674 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:22,777 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:22,777 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:22,869 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:22,870 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:22,978 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:22,978 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,080 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:23,081 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:23,173 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:23,173 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,274 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:23,274 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:23,347 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-10 19:30:23,348 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,457 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(2))
-2025-12-10 19:30:23,458 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,558 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
-2025-12-10 19:30:23,558 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,650 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(2))
-2025-12-10 19:30:23,650 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,761 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-10 19:30:23,762 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,877 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
-2025-12-10 19:30:23,877 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:23,965 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
-2025-12-10 19:30:23,965 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:24,045 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(5))
-2025-12-10 19:30:24,045 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:24,152 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
-2025-12-10 19:30:24,153 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:24,261 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(5))
-2025-12-10 19:30:24,261 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:24,353 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
-2025-12-10 19:30:24,353 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:24,458 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-10 19:30:24,459 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:24,558 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:24,558 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:24,676 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(5))
-2025-12-10 19:30:24,676 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:24,779 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
-2025-12-10 19:30:24,780 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:24,873 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:24,873 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:24,961 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:24,961 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:25,051 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(7))
-2025-12-10 19:30:25,051 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:25,181 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:25,182 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:25,274 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(7))
-2025-12-10 19:30:25,275 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:25,378 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:25,379 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:25,473 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(7))
-2025-12-10 19:30:25,474 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:25,576 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(5))
-2025-12-10 19:30:25,576 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:25,665 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:25,665 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:25,741 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:25,741 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:25,850 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-10 19:30:25,850 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:25,980 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
-2025-12-10 19:30:25,980 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:26,069 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-10 19:30:26,069 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:26,156 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:26,156 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:26,239 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:26,239 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:26,359 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:26,359 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:26,472 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:26,472 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:26,581 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(7))
-2025-12-10 19:30:26,582 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:26,653 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(6))
-2025-12-10 19:30:26,653 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:26,754 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:26,754 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:26,850 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(4))
-2025-12-10 19:30:26,850 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:26,968 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(9))
-2025-12-10 19:30:26,968 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:27,079 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:27,079 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:27,166 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-10 19:30:27,167 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:27,279 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
-2025-12-10 19:30:27,279 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:27,386 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(5))
-2025-12-10 19:30:27,386 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:27,466 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
-2025-12-10 19:30:27,466 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:27,583 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-10 19:30:27,583 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:27,654 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(5))
-2025-12-10 19:30:27,654 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:27,764 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(4))
-2025-12-10 19:30:27,765 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:27,867 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-10 19:30:27,867 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:27,981 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(2))
-2025-12-10 19:30:27,982 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:28,086 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-10 19:30:28,086 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:28,182 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:28,182 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:28,281 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(1))
-2025-12-10 19:30:28,282 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:28,385 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-10 19:30:28,385 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:28,477 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(3))
-2025-12-10 19:30:28,477 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:28,586 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(1))
-2025-12-10 19:30:28,587 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:28,662 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-10 19:30:28,662 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:28,764 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-10 19:30:28,764 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:28,860 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(1))
-2025-12-10 19:30:28,860 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:28,982 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-10 19:30:28,982 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:29,079 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
-2025-12-10 19:30:29,079 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:29,170 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
-2025-12-10 19:30:29,170 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:29,289 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(2))
-2025-12-10 19:30:29,289 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:29,369 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(3))
-2025-12-10 19:30:29,370 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:29,451 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(3))
-2025-12-10 19:30:29,451 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:29,575 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(3))
-2025-12-10 19:30:29,575 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:29,684 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(3))
-2025-12-10 19:30:29,685 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:29,783 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-10 19:30:29,783 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:29,854 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
-2025-12-10 19:30:29,854 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:29,983 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-10 19:30:29,983 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:30,064 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
-2025-12-10 19:30:30,064 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:30,170 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-10 19:30:30,170 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:30,259 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-10 19:30:30,260 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:30,386 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-10 19:30:30,386 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:30,461 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-10 19:30:30,461 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:30,591 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(3))
-2025-12-10 19:30:30,591 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:30,686 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-10 19:30:30,686 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:30,786 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(3))
-2025-12-10 19:30:30,786 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:30,877 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(3))
-2025-12-10 19:30:30,877 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:30,986 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(4))
-2025-12-10 19:30:30,986 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:31,083 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(4))
-2025-12-10 19:30:31,084 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:31,161 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-10 19:30:31,162 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:31,268 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-10 19:30:31,269 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:31,350 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(5))
-2025-12-10 19:30:31,351 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:31,465 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-10 19:30:31,465 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:31,568 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
-2025-12-10 19:30:31,568 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:31,688 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
-2025-12-10 19:30:31,688 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:31,786 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
-2025-12-10 19:30:31,786 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:31,896 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
-2025-12-10 19:30:31,896 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:31,973 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(6))
-2025-12-10 19:30:31,973 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:32,089 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-10 19:30:32,090 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:32,190 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(5))
-2025-12-10 19:30:32,190 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:32,287 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
-2025-12-10 19:30:32,287 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:32,370 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
-2025-12-10 19:30:32,371 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:32,488 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
-2025-12-10 19:30:32,488 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:32,594 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-10 19:30:32,594 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:32,671 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
-2025-12-10 19:30:32,672 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:32,792 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
-2025-12-10 19:30:32,792 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:32,878 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(8))
-2025-12-10 19:30:32,878 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:32,975 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:32,975 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:33,086 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(10))
-2025-12-10 19:30:33,086 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:33,194 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:33,194 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:33,292 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(10))
-2025-12-10 19:30:33,292 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:33,392 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:33,392 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:33,468 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:33,468 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:33,571 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:33,571 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:33,675 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:33,675 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:33,792 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:33,792 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:33,869 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(9))
-2025-12-10 19:30:33,870 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:33,979 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:33,979 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:34,093 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:34,093 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:34,195 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:34,195 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:34,278 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(8))
-2025-12-10 19:30:34,278 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:34,343 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
-2025-12-10 19:30:34,343 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:34,428 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
-2025-12-10 19:30:34,429 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:34,752 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
-2025-12-10 19:30:34,752 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:34,841 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
-2025-12-10 19:30:34,841 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:34,929 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
-2025-12-10 19:30:34,929 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:35,034 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
-2025-12-10 19:30:35,034 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:35,151 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
-2025-12-10 19:30:35,151 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:35,247 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
-2025-12-10 19:30:35,247 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:35,350 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
-2025-12-10 19:30:35,350 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:35,435 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
-2025-12-10 19:30:35,436 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:35,540 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
-2025-12-10 19:30:35,540 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:35,640 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
-2025-12-10 19:30:35,641 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:35,756 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
-2025-12-10 19:30:35,756 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:35,832 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(8))
-2025-12-10 19:30:35,833 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:35,936 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(9))
-2025-12-10 19:30:35,937 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:36,033 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(8))
-2025-12-10 19:30:36,033 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:36,156 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:36,157 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:36,200 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(9))
-2025-12-10 19:30:36,200 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:36,338 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:36,338 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:36,458 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-10 19:30:36,458 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: WAIT
-2025-12-10 19:30:36,557 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:36,557 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:36,641 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:36,641 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:36,736 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(9))
-2025-12-10 19:30:36,736 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:36,858 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-10 19:30:36,859 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:36,963 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:36,963 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:37,049 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(9))
-2025-12-10 19:30:37,049 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:37,162 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(10))
-2025-12-10 19:30:37,162 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:37,263 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(11))
-2025-12-10 19:30:37,264 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:37,374 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(12))
-2025-12-10 19:30:37,374 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:37,399 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:37,399 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:37,575 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(13))
-2025-12-10 19:30:37,575 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:37,680 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-10 19:30:37,680 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:37,756 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:37,757 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:37,885 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-10 19:30:37,885 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:37,985 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
-2025-12-10 19:30:37,985 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:38,089 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
-2025-12-10 19:30:38,089 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:38,193 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(15))
-2025-12-10 19:30:38,194 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:38,259 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
-2025-12-10 19:30:38,259 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:38,318 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-10 19:30:38,319 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:38,476 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:38,476 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:38,576 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
-2025-12-10 19:30:38,577 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:38,821 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(15))
-2025-12-10 19:30:38,822 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:38,875 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
-2025-12-10 19:30:38,875 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:38,999 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
-2025-12-10 19:30:38,999 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:39,071 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-10 19:30:39,071 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:39,199 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-10 19:30:39,199 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:39,292 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-10 19:30:39,292 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:39,404 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-10 19:30:39,404 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:39,472 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(13))
-2025-12-10 19:30:39,472 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:39,610 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:39,610 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:39,700 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:39,700 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:39,820 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(13))
-2025-12-10 19:30:39,821 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:39,891 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-10 19:30:39,891 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:40,025 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(13))
-2025-12-10 19:30:40,025 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:40,126 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-10 19:30:40,127 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:40,215 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
-2025-12-10 19:30:40,215 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:40,328 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-10 19:30:40,328 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:40,420 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(13))
-2025-12-10 19:30:40,421 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:40,509 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-10 19:30:40,510 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:40,627 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(13))
-2025-12-10 19:30:40,627 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:40,703 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(13))
-2025-12-10 19:30:40,704 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:40,827 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(13))
-2025-12-10 19:30:40,827 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:40,930 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(13))
-2025-12-10 19:30:40,930 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:41,010 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(13))
-2025-12-10 19:30:41,010 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:41,141 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
-2025-12-10 19:30:41,142 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:41,207 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(13))
-2025-12-10 19:30:41,207 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:41,480 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(14))
-2025-12-10 19:30:41,481 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:41,564 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(15))
-2025-12-10 19:30:41,565 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:41,629 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
-2025-12-10 19:30:41,629 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:41,729 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(15))
-2025-12-10 19:30:41,729 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:42,027 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(14))
-2025-12-10 19:30:42,027 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:42,128 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(15))
-2025-12-10 19:30:42,128 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:42,265 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(14))
-2025-12-10 19:30:42,265 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:42,398 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(13))
-2025-12-10 19:30:42,398 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:42,635 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(13))
-2025-12-10 19:30:42,635 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:42,769 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(13))
-2025-12-10 19:30:42,769 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:42,906 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(13))
-2025-12-10 19:30:42,906 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:43,011 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(14))
-2025-12-10 19:30:43,011 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:43,131 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(13))
-2025-12-10 19:30:43,131 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:43,246 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(14))
-2025-12-10 19:30:43,246 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:43,352 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(15))
-2025-12-10 19:30:43,352 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:43,405 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
-2025-12-10 19:30:43,405 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:43,526 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(15))
-2025-12-10 19:30:43,526 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:43,601 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
-2025-12-10 19:30:43,602 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:43,694 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
-2025-12-10 19:30:43,694 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
-2025-12-10 19:30:43,794 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
-2025-12-10 19:30:43,794 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:43,922 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(15))
-2025-12-10 19:30:43,923 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:44,065 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(14))
-2025-12-10 19:30:44,065 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:44,150 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(15))
-2025-12-10 19:30:44,150 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:44,243 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(14))
-2025-12-10 19:30:44,243 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:44,328 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(13))
-2025-12-10 19:30:44,328 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:44,501 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
-2025-12-10 19:30:44,502 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
-2025-12-10 19:30:44,524 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(13))
-2025-12-10 19:30:44,525 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: BOMB
-2025-12-10 19:30:44,655 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(13))
-2025-12-10 19:30:44,655 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
-2025-12-10 19:30:44,742 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(14))
-2025-12-10 19:30:44,743 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
-2025-12-10 19:30:44,845 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(13))
-2025-12-10 19:30:44,845 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: WAIT
+2025-12-10 23:00:50,028 [totoro_0_code] DEBUG: Successfully entered setup code
+2025-12-10 23:00:50,277 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,278 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:50,358 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,359 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:50,453 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: WAIT
+2025-12-10 23:00:50,553 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,553 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:50,655 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,655 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:50,754 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,754 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:50,855 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,855 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:50,956 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:50,957 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:51,055 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,055 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:51,157 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-10 23:00:51,158 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:51,256 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:51,256 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:51,356 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,356 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:51,465 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,465 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:51,605 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,605 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:51,635 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,635 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:51,687 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,688 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:51,811 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:51,811 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:51,914 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:51,914 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:52,014 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:52,014 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:52,097 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:52,097 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:52,216 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:52,216 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:52,313 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:52,313 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:52,387 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:52,387 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:52,494 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-10 23:00:52,494 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:52,597 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:52,597 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:52,732 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:52,732 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:52,807 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:52,807 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:52,908 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:52,908 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:53,028 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:53,028 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:53,114 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:53,114 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:53,213 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:53,213 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:53,290 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:53,291 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:53,412 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:53,413 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:53,485 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:53,485 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:53,598 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:53,598 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:53,676 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:53,676 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:53,784 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:53,784 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:53,884 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:53,884 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:54,002 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:54,002 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:54,083 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,083 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:54,212 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,213 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:54,297 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,297 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:54,397 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,397 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:54,491 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,491 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:54,595 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,595 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:54,698 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,698 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:54,797 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,797 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:54,891 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:54,892 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:55,003 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,003 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:55,112 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,112 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:55,194 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,194 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:55,302 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,302 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:55,383 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,383 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:55,493 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,493 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:55,597 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,597 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:55,690 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,691 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:55,787 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,787 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:55,890 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:55,890 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:56,005 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:56,005 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:56,110 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:56,110 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:56,187 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:56,187 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:56,303 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:56,304 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:56,409 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:56,410 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: UP
+2025-12-10 23:00:56,517 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:56,517 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:56,619 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:56,620 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:56,709 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:56,709 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:56,790 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-10 23:00:56,790 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:56,899 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-10 23:00:56,899 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:57,018 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,019 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: DOWN
+2025-12-10 23:00:57,119 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,119 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:57,202 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,202 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:57,298 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,299 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:57,414 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-10 23:00:57,415 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:57,514 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,514 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:57,599 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,599 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:57,717 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,717 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:57,792 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,792 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:57,917 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,917 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:57,990 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:57,990 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:58,095 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:58,095 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:58,191 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:58,191 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:58,301 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:58,302 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: RIGHT
+2025-12-10 23:00:58,393 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(3))
+2025-12-10 23:00:58,393 [totoro_0_code] INFO: I am totoro_0, acting as KILLER. Chosen action: LEFT
+2025-12-10 23:00:58,517 [totoro_0_wrapper] ERROR: name 'is_blocked_by_bomb' is not defined
+Traceback (most recent call last):
+  File "/app/agents.py", line 248, in process_event
+    event_result = getattr(module, event_name)(self.fake_self, *event_args)
+  File "/app/agent_code/totoro/callbacks.py", line 120, in act
+    action = act_as_killer(self, game_state, valid_actions, enemies, bomb_xys)
+  File "/app/agent_code/totoro/callbacks.py", line 222, in act_as_killer
+    if is_safe_to_bomb(game_state, (x, y)):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/app/agent_code/totoro/callbacks.py", line 273, in is_safe_to_bomb
+    if is_blocked_by_bomb((nx, ny), bombs): continue
+       ^^^^^^^^^^^^^^^^^^
+NameError: name 'is_blocked_by_bomb' is not defined
