@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  game:
+    image: bomberman_miru:lateset
+    container_name: bomberman_dev
+    # 윈도우 파일 시스템 연결 (Bind Mount)
+    volumes:
+      - .:/app
+    # 작업 디렉토리 설정
+    working_dir: /app
+    # 디스플레이 설정 (GUI용)
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+    # 터미널 입력을 위해 필요 (-it 옵션과 동일)
+    stdin_open: true
+    tty: true
+    # 컨테이너가 죽지 않고 계속 떠 있게 함 (bash 접속용)
+    command: tail -f /dev/null
+
+

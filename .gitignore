@@ -111,3 +111,7 @@ screenshots/*.webm
 
 replays/
 results/
+
+__pycache__/
+*.pyc
+*.log
