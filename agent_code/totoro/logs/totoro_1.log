@@ -1,815 +1,176 @@
-2025-12-11 07:02:09,184 [totoro_1_code] DEBUG: Successfully entered setup code
-2025-12-11 07:02:09,460 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:09,460 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:09,546 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:09,546 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:09,635 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:09,635 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:09,737 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:09,738 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:09,836 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:09,836 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:10,043 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:10,044 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:10,140 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:10,140 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:10,244 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:10,245 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:10,343 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:10,343 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:10,437 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:10,438 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:10,552 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:10,552 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:10,643 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:10,643 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:10,745 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:10,745 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:10,832 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-11 07:02:10,833 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:10,955 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-11 07:02:10,955 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:11,039 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-11 07:02:11,039 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:11,139 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-11 07:02:11,140 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:11,237 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
-2025-12-11 07:02:11,237 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:11,356 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(1))
-2025-12-11 07:02:11,357 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:11,439 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(1))
-2025-12-11 07:02:11,439 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:11,554 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(1))
-2025-12-11 07:02:11,555 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:11,641 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(1))
-2025-12-11 07:02:11,641 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:11,749 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:02:11,749 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:11,939 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(1))
-2025-12-11 07:02:11,939 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:37,885 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-11 07:02:37,885 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:38,011 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-11 07:02:38,011 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:38,090 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-11 07:02:38,090 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:38,193 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,193 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:38,305 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,305 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:38,489 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,489 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:38,590 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,590 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:38,698 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,698 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:38,799 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,799 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:38,894 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,895 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:38,992 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:38,992 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:39,120 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:02:39,120 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:39,292 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:02:39,292 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:39,387 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:02:39,387 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:39,494 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:02:39,495 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:39,617 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:02:39,617 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:39,718 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:02:39,718 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:39,798 [totoro_1_code] INFO: Lurer emergency escape: UP
-2025-12-11 07:02:39,799 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:39,999 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:02:40,000 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:40,117 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:02:40,117 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:40,193 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:02:40,194 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:40,314 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:02:40,314 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:40,397 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:02:40,397 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:40,511 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:02:40,511 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:40,696 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(2))
-2025-12-11 07:02:40,697 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:40,793 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(2))
-2025-12-11 07:02:40,793 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:40,888 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(2))
-2025-12-11 07:02:40,888 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:41,017 [totoro_1_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
-2025-12-11 07:02:41,017 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:41,117 [totoro_1_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
-2025-12-11 07:02:41,117 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:41,201 [totoro_1_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
-2025-12-11 07:02:41,202 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:41,319 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:02:41,319 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:41,620 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:41,620 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:41,705 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:41,705 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:41,799 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:41,799 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:41,895 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:41,895 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,014 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:42,014 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,118 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:42,118 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,194 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(6))
-2025-12-11 07:02:42,194 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,299 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
-2025-12-11 07:02:42,299 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,399 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
-2025-12-11 07:02:42,399 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,505 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
-2025-12-11 07:02:42,506 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,605 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
-2025-12-11 07:02:42,605 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:42,722 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
-2025-12-11 07:02:42,722 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:42,819 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
-2025-12-11 07:02:42,819 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:42,925 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
-2025-12-11 07:02:42,925 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,010 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
-2025-12-11 07:02:43,010 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:43,105 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
-2025-12-11 07:02:43,105 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,210 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
-2025-12-11 07:02:43,210 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,306 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
-2025-12-11 07:02:43,307 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,399 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
-2025-12-11 07:02:43,399 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,516 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:43,516 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,602 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:43,603 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:43,695 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:43,695 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:43,803 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:43,803 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:43,907 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:43,907 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:44,003 [totoro_1_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
-2025-12-11 07:02:44,003 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:44,097 [totoro_1_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
-2025-12-11 07:02:44,097 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:44,206 [totoro_1_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
-2025-12-11 07:02:44,206 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:44,294 [totoro_1_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
-2025-12-11 07:02:44,294 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:44,400 [totoro_1_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
-2025-12-11 07:02:44,400 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:44,522 [totoro_1_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
-2025-12-11 07:02:44,522 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:44,607 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(9))
-2025-12-11 07:02:44,607 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:44,691 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(9))
-2025-12-11 07:02:44,691 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:44,809 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(9))
-2025-12-11 07:02:44,810 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:44,904 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:44,904 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:45,002 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:45,002 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:45,197 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:45,197 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:45,321 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
-2025-12-11 07:02:45,321 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:45,609 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(10))
-2025-12-11 07:02:45,609 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:57,670 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:57,670 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:57,798 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:57,798 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:57,872 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
-2025-12-11 07:02:57,872 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:58,004 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,005 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:58,089 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,089 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:58,300 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,301 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:02:58,384 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,384 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:58,499 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,500 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:02:58,602 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,602 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:58,699 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,699 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:02:58,786 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:02:58,786 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:58,884 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:58,884 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:58,975 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:58,976 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:59,080 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:59,081 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:59,185 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:59,185 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:59,282 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:59,282 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:02:59,404 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:59,404 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:02:59,504 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:59,504 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:59,586 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:02:59,586 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:02:59,777 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:02:59,777 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:03:06,892 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
-2025-12-11 07:03:06,893 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:06,999 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
-2025-12-11 07:03:06,999 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:07,094 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
-2025-12-11 07:03:07,094 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:07,189 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
-2025-12-11 07:03:07,189 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:07,301 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
-2025-12-11 07:03:07,302 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:07,515 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
-2025-12-11 07:03:07,515 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:07,597 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(13))
-2025-12-11 07:03:07,597 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:07,700 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(13))
-2025-12-11 07:03:07,700 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:07,773 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(13))
-2025-12-11 07:03:07,773 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:07,893 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:07,893 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:07,997 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:07,997 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:08,195 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:08,195 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:03:08,299 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:08,299 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:08,404 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:08,404 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:08,495 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:08,495 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:08,600 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
-2025-12-11 07:03:08,600 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:08,702 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:03:08,702 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:09,019 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-11 07:03:09,019 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:09,115 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-11 07:03:09,116 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:09,208 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-11 07:03:09,209 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:09,314 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-11 07:03:09,314 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:09,397 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-11 07:03:09,397 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:09,509 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:03:09,509 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:09,700 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(13))
-2025-12-11 07:03:09,700 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:09,800 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(10))
-2025-12-11 07:03:09,800 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:09,898 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(10))
-2025-12-11 07:03:09,898 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:09,997 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(10))
-2025-12-11 07:03:09,997 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:10,105 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-11 07:03:10,105 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:10,215 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-11 07:03:10,215 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:10,299 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-11 07:03:10,299 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:10,394 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
-2025-12-11 07:03:10,394 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:10,490 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:10,490 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:10,621 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:10,621 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:10,691 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:10,691 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:10,802 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:10,802 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:10,902 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:10,902 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:10,995 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:10,995 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:11,104 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,105 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:11,213 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,213 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:11,307 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,308 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:11,401 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,401 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:11,487 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,488 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:11,616 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,616 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:11,681 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,681 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:11,803 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:11,803 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:11,921 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:03:11,922 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:12,106 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:12,106 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:12,211 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:12,211 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:12,299 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:03:12,299 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:12,517 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(8))
-2025-12-11 07:03:12,517 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:03:34,139 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-11 07:03:34,139 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:34,254 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-11 07:03:34,254 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:34,356 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-11 07:03:34,356 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:34,481 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-11 07:03:34,481 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:34,546 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:03:34,546 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:34,781 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
-2025-12-11 07:03:34,782 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:34,890 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:34,890 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:34,966 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:34,966 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:35,077 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,077 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:35,185 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,185 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:35,277 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,277 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:35,364 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,364 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:35,484 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,484 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:35,608 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,608 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:35,704 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:35,704 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:35,802 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(9))
-2025-12-11 07:03:35,802 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:35,875 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(9))
-2025-12-11 07:03:35,875 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:36,010 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(9))
-2025-12-11 07:03:36,010 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:36,095 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:36,095 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:36,307 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(9))
-2025-12-11 07:03:36,307 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:36,375 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
-2025-12-11 07:03:36,375 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:36,475 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
-2025-12-11 07:03:36,475 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:03:36,751 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
-2025-12-11 07:03:36,751 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:36,827 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
-2025-12-11 07:03:36,827 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:36,909 [totoro_1_code] INFO: Lurer emergency escape: UP
-2025-12-11 07:03:36,909 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:03:37,135 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-11 07:03:37,135 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:37,184 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-11 07:03:37,184 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:03:37,499 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-11 07:03:37,499 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:37,738 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-11 07:03:37,739 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:03:37,986 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-11 07:03:37,986 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:38,013 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:03:38,014 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:03:38,251 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(9))
-2025-12-11 07:03:38,252 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:05:05,052 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
-2025-12-11 07:05:05,052 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:05,163 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
-2025-12-11 07:05:05,163 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:05,235 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
-2025-12-11 07:05:05,235 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:05,368 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
-2025-12-11 07:05:05,368 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:05,463 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:05:05,463 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:05,710 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:05:05,710 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:05,852 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:05:05,853 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:06,093 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:05:06,094 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:06,211 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:05:06,212 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:06,321 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:05:06,321 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:06,344 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:05:06,344 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:06,660 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:05:06,660 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:06,710 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(13))
-2025-12-11 07:05:06,710 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:06,859 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(13))
-2025-12-11 07:05:06,859 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:06,996 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(13))
-2025-12-11 07:05:06,997 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:07,062 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
-2025-12-11 07:05:07,062 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:07,202 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(13))
-2025-12-11 07:05:07,202 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:07,316 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(13))
-2025-12-11 07:05:07,316 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:07,442 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(13))
-2025-12-11 07:05:07,442 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:07,691 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:05:07,691 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:08,013 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:08,013 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:08,254 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(10))
-2025-12-11 07:05:08,254 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:08,289 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(10))
-2025-12-11 07:05:08,289 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:08,478 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(10))
-2025-12-11 07:05:08,478 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:08,526 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:05:08,527 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:08,950 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:08,951 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:05:09,009 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:09,009 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:09,163 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:09,163 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:09,207 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:09,207 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:09,388 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:09,388 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:09,426 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:09,426 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:09,637 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
-2025-12-11 07:05:09,637 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:09,833 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(9))
-2025-12-11 07:05:09,833 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:09,964 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:09,964 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:10,027 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,027 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:10,174 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,174 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:10,196 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,197 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:10,382 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,382 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:10,457 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,458 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:10,561 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,561 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:10,704 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,705 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:10,746 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,746 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:10,923 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(7))
-2025-12-11 07:05:10,923 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:11,032 [totoro_1_code] INFO: Lurer emergency escape: DOWN
-2025-12-11 07:05:11,033 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:11,277 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(12))
-2025-12-11 07:05:11,277 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:11,316 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:11,316 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:11,472 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:11,473 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:11,617 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:11,617 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:11,722 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:11,722 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:11,743 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:11,743 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:11,894 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:11,894 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:12,029 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(7))
-2025-12-11 07:05:12,030 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:12,052 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,053 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:12,261 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,262 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:12,322 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,322 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:12,501 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,501 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:12,588 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,588 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:12,718 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,718 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:12,766 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,767 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:12,961 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,961 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:12,987 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:12,987 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:13,196 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,196 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:13,250 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,250 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:13,434 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,434 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:13,530 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,530 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:13,673 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,673 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:13,743 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,743 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:13,908 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:13,908 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:14,047 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:14,047 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:14,074 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:14,074 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:14,284 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:14,284 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:14,406 [totoro_1_code] DEBUG: Suitable target found at (np.int64(7), np.int64(6))
-2025-12-11 07:05:14,406 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:14,472 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-11 07:05:14,472 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:14,580 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-11 07:05:14,580 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:14,728 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-11 07:05:14,728 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:14,766 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-11 07:05:14,766 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:14,965 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-11 07:05:14,965 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:15,023 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(5))
-2025-12-11 07:05:15,024 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:15,204 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:05:15,204 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:15,406 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
-2025-12-11 07:05:15,406 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:05:38,988 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:05:38,988 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:39,150 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:05:39,150 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:39,256 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:05:39,256 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:39,313 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
-2025-12-11 07:05:39,313 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:39,480 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:05:39,480 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:39,726 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(4))
-2025-12-11 07:05:39,726 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:39,749 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:39,750 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:39,932 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:39,932 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:40,045 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:40,046 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:40,127 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:40,127 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:40,279 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:40,279 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:40,424 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:40,424 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:40,526 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:40,526 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:40,569 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(1))
-2025-12-11 07:05:40,569 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:40,770 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:05:40,770 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:41,038 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:05:41,038 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:41,092 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:05:41,092 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:41,227 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:05:41,228 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:41,349 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:05:41,349 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:41,467 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:05:41,468 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:41,574 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:05:41,574 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:41,817 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:41,817 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:41,842 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:41,842 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,008 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,008 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,096 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,096 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,208 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,208 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,318 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,318 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,453 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,454 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,525 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,526 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,648 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,648 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,765 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(1))
-2025-12-11 07:05:42,766 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:42,873 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:42,874 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:42,986 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:42,987 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:43,093 [totoro_1_code] INFO: Lurer emergency escape: LEFT
-2025-12-11 07:05:43,093 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:43,305 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:43,305 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:43,385 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:43,385 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:43,647 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:43,647 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:43,726 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:43,726 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:43,820 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:43,820 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:43,972 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:43,972 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:44,035 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,035 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:44,183 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,183 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:44,425 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,426 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:44,547 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,548 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:44,663 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,663 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:44,740 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,740 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:44,842 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,842 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:44,978 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:44,978 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:45,116 [totoro_1_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
-2025-12-11 07:05:45,116 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:45,255 [totoro_1_code] INFO: Lurer emergency escape: UP
-2025-12-11 07:05:45,255 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:45,494 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(3))
-2025-12-11 07:05:45,494 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:45,588 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-11 07:05:45,588 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:45,675 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-11 07:05:45,675 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:45,780 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-11 07:05:45,780 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:45,919 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-11 07:05:45,920 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:46,000 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(3))
-2025-12-11 07:05:46,001 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:46,099 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:05:46,099 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:46,462 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(2))
-2025-12-11 07:05:46,462 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:05:46,607 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
-2025-12-11 07:05:46,608 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:46,754 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
-2025-12-11 07:05:46,755 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:46,873 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-11 07:05:46,873 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:46,983 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-11 07:05:46,983 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:05:47,105 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(9))
-2025-12-11 07:05:47,105 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:47,231 [totoro_1_code] DEBUG: Suitable target found at (np.int64(11), np.int64(2))
-2025-12-11 07:05:47,231 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:47,364 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-11 07:05:47,364 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:47,459 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-11 07:05:47,459 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:05:47,548 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-11 07:05:47,549 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:05:47,666 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
-2025-12-11 07:05:47,666 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:05:47,777 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
-2025-12-11 07:05:47,777 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:05:47,994 [totoro_1_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
-2025-12-11 07:05:47,995 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:07:40,758 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:07:40,758 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:40,904 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:07:40,904 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:07:40,991 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:07:40,992 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:07:41,078 [totoro_1_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
-2025-12-11 07:07:41,079 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:41,196 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:07:41,196 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:41,273 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:07:41,273 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:07:41,421 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:07:41,421 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:41,518 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
-2025-12-11 07:07:41,518 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:41,627 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
-2025-12-11 07:07:41,627 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:41,740 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
-2025-12-11 07:07:41,740 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:07:41,877 [totoro_1_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
-2025-12-11 07:07:41,877 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:07:42,018 [totoro_1_code] INFO: Lurer emergency escape: UP
-2025-12-11 07:07:42,018 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:07:42,370 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:42,370 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:42,426 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:42,426 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:07:42,596 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:42,596 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:42,682 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:42,682 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:42,786 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:42,787 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:42,903 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:42,903 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:07:43,028 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:43,029 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:43,264 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:43,264 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:43,374 [totoro_1_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
-2025-12-11 07:07:43,374 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:43,475 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(5))
-2025-12-11 07:07:43,475 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:43,552 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(5))
-2025-12-11 07:07:43,552 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:07:43,819 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(5))
-2025-12-11 07:07:43,819 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:07:43,926 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(5))
-2025-12-11 07:07:43,927 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:07:43,971 [totoro_1_code] INFO: Lurer emergency escape: RIGHT
-2025-12-11 07:07:43,971 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:07:44,393 [totoro_1_code] DEBUG: Suitable target found at (np.int64(10), np.int64(5))
-2025-12-11 07:07:44,393 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:08:25,350 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-11 07:08:25,350 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:25,445 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-11 07:08:25,445 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:08:25,471 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-11 07:08:25,472 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:08:25,658 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-11 07:08:25,658 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:08:25,745 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:25,745 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:08:25,999 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:25,999 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:08:26,083 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:26,084 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:08:26,210 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:26,211 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:08:26,359 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:26,360 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:08:26,455 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:26,455 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:08:26,570 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-11 07:08:26,571 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:26,688 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:26,688 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:26,782 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:26,782 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:08:26,850 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:26,850 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:27,016 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:27,016 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:08:27,086 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:27,087 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:27,210 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:27,210 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:08:27,336 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:27,336 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:27,358 [totoro_1_code] INFO: Lurer emergency escape: UP
-2025-12-11 07:08:27,358 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:27,678 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
-2025-12-11 07:08:27,678 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:08:41,013 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-11 07:08:41,014 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:08:41,107 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-11 07:08:41,107 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:08:41,240 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
-2025-12-11 07:08:41,240 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:41,480 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:08:41,480 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:08:41,594 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
-2025-12-11 07:08:41,594 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:08:41,815 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:08:41,815 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:08:41,881 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:08:41,881 [totoro_1_code] INFO: Agent totoro_1: action LEFT
-2025-12-11 07:08:42,026 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:08:42,026 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:08:42,050 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
-2025-12-11 07:08:42,050 [totoro_1_code] INFO: Agent totoro_1: action DOWN
-2025-12-11 07:08:42,212 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:08:42,212 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:08:42,332 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:08:42,332 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
-2025-12-11 07:08:42,412 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:08:42,412 [totoro_1_code] INFO: Agent totoro_1: action BOMB
-2025-12-11 07:08:42,507 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(3))
-2025-12-11 07:08:42,507 [totoro_1_code] INFO: Agent totoro_1: action UP
-2025-12-11 07:08:42,641 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(2))
-2025-12-11 07:08:42,641 [totoro_1_code] INFO: Agent totoro_1: action WAIT
-2025-12-11 07:08:42,856 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(2))
-2025-12-11 07:08:42,856 [totoro_1_code] INFO: Agent totoro_1: action WAIT
+2025-12-11 07:16:43,924 [totoro_1_code] DEBUG: Successfully entered setup code
+2025-12-11 07:16:44,192 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:44,192 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:44,192 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:44,281 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:44,281 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:44,281 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:44,373 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:44,373 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:44,373 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:44,477 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:44,477 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:44,477 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:44,577 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:44,577 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:44,577 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:44,673 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:44,673 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:44,673 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:44,769 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:44,769 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:44,769 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:44,867 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:44,867 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:44,867 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:44,867 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:44,971 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:44,971 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:44,971 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:44,972 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:44,972 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:45,068 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:45,069 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:45,069 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:45,069 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:45,167 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:45,167 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:45,167 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:45,167 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:45,167 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:45,271 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:45,271 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:45,271 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:45,271 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:45,387 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:45,388 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:45,388 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:45,388 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:45,388 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:45,505 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:45,505 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:45,505 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:45,505 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:45,619 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:45,619 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:45,619 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:45,619 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:45,619 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:45,721 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:45,721 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:45,721 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:45,722 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:45,799 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:45,799 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:45,800 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:45,800 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:45,800 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:45,894 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:45,894 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:45,894 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:45,894 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:46,021 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:46,021 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:46,022 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:46,022 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:46,022 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:46,122 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:46,122 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:46,122 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:46,225 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,225 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:46,225 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:46,320 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,320 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:46,320 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:46,321 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:46,425 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,425 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:46,425 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:46,425 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:46,425 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:46,521 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,521 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:46,522 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:46,522 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:46,611 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,611 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:46,611 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:46,611 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:46,611 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:46,735 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,735 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:46,735 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:46,735 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:46,808 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,809 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:46,809 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:46,809 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:46,809 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:46,901 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:46,901 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:46,901 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:46,901 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:47,023 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,023 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:47,023 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:47,023 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:47,023 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:47,116 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,116 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:47,117 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:47,117 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:47,258 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,258 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:47,258 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:47,258 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:47,258 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:47,314 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,314 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:47,314 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:47,314 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:47,452 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,452 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:47,452 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:47,453 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:47,453 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:47,558 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,558 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:47,558 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:47,558 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:47,642 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:47,642 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:47,642 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:47,642 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:47,643 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:47,732 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:47,732 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:47,733 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:47,733 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:47,795 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,796 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:47,796 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:47,796 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:47,796 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:47,932 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:47,933 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:47,933 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:47,933 [totoro_1_code] INFO: Agent totoro_1: action LEFT
+2025-12-11 07:16:48,029 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:48,029 [totoro_1_code] INFO: Lurer found coin target at (np.int64(1), np.int64(2)), current pos (1,1)
+2025-12-11 07:16:48,029 [totoro_1_code] INFO: Lurer moving DOWN for coin
+2025-12-11 07:16:48,029 [totoro_1_code] INFO: Lurer executing action from ideas: DOWN
+2025-12-11 07:16:48,030 [totoro_1_code] INFO: Agent totoro_1: action DOWN
+2025-12-11 07:16:48,135 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:16:48,136 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:48,136 [totoro_1_code] INFO: Lurer using random movement: UP (no action ideas)
+2025-12-11 07:16:48,136 [totoro_1_code] INFO: Agent totoro_1: action UP
+2025-12-11 07:16:48,217 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:48,217 [totoro_1_code] INFO: Lurer found coin target at (np.int64(2), np.int64(1)), current pos (1,1)
+2025-12-11 07:16:48,217 [totoro_1_code] INFO: Lurer moving RIGHT for coin
+2025-12-11 07:16:48,217 [totoro_1_code] INFO: Lurer executing action from ideas: RIGHT
+2025-12-11 07:16:48,217 [totoro_1_code] INFO: Agent totoro_1: action RIGHT
+2025-12-11 07:16:48,309 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:16:48,309 [totoro_1_code] INFO: Lurer already at coin position, looking for next coin
+2025-12-11 07:16:48,309 [totoro_1_code] INFO: Lurer using random movement: LEFT (no action ideas)
+2025-12-11 07:16:48,309 [totoro_1_code] INFO: Agent totoro_1: action LEFT
