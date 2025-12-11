@@ -34,6 +34,21 @@ def act(self, game_state: dict):
     my_name = game_state['self'][0]
     team_prefix = "totoro"
     enemies = [xy for (n, s, b, xy) in game_state['others'] if team_prefix not in n]
+    
+    # 1-1. [중요] 초기 갇힘 상태 확인 (상자로 완전히 둘러싸임)
+    trapped_by_crates = True
+    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+        nx, ny = x + dx, y + dy
+        if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
+            arena[nx, ny] == 0):  # 빈 공간이 하나라도 있으면 갇히지 않음
+            trapped_by_crates = False
+            break
+    
+    # 1-2. 갇혀있으면 즉시 폭탄 설치
+    if trapped_by_crates and bombs_left > 0:
+        self.bomb_history.append((x, y))
+        self.logger.info(f"Trapped by crates! Placing bomb to escape")
+        return 'BOMB'
 
     # 2. [최적화] 빠른 위험 판단 - 즉시 위험한 상황만 체크
     immediate_danger = False
@@ -62,6 +77,20 @@ def act(self, game_state: dict):
         # 간단한 안전성 체크만 수행
         if quick_bomb_safety_check(game_state, (x, y)):
             valid_actions.append('BOMB')
+    
+    # 5-1. [추가] 이동 불가능하지만 폭탄 설치 가능한 경우
+    if not valid_actions and can_place_bomb:
+        # 주변에 상자가 있으면 폭탄으로 길을 열어야 함
+        has_crate_nearby = False
+        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+            nx, ny = x + dx, y + dy
+            if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
+                arena[nx, ny] == 1):
+                has_crate_nearby = True
+                break
+        if has_crate_nearby:
+            self.bomb_history.append((x, y))
+            return 'BOMB'
     
     # 6. 역할별 행동 수행
     if my_name.endswith('_0'):
