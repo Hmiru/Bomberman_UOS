@@ -1,5 +1,1043 @@
-2025-12-11 06:20:45,335 [totoro_0_code] DEBUG: Successfully entered setup code
-2025-12-11 06:20:46,077 [totoro_0_code] INFO: EMERGENCY ESCAPE: LEFT
-2025-12-11 06:20:59,561 [totoro_0_code] INFO: EMERGENCY ESCAPE: UP
-2025-12-11 06:21:02,799 [totoro_0_code] INFO: EMERGENCY ESCAPE: WAIT
-2025-12-11 06:21:06,231 [totoro_0_code] INFO: EMERGENCY ESCAPE: RIGHT
+2025-12-11 07:02:09,180 [totoro_0_code] DEBUG: Successfully entered setup code
+2025-12-11 07:02:09,459 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:09,459 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:09,545 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:09,545 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:09,545 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:09,546 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:09,634 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:09,634 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:09,635 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:09,737 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:09,737 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:09,835 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:09,836 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:09,836 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:10,043 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,043 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:10,139 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,139 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:10,244 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,244 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:10,341 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,342 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:10,436 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,437 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:10,437 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:10,551 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,551 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:10,642 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,642 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,642 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:10,642 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:10,744 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,744 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:10,745 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:10,832 [totoro_0_code] INFO: Killer emergency escape: DOWN
+2025-12-11 07:02:10,832 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:11,038 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:02:11,039 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:37,884 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:37,884 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:38,010 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:38,010 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:38,010 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:38,011 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:38,089 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:38,089 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:38,089 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:38,192 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
+2025-12-11 07:02:38,193 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:38,304 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,304 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,305 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:38,488 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,488 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,489 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,489 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:38,588 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,589 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,589 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:02:38,589 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:38,697 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:38,697 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:38,798 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:38,798 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:38,894 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:38,894 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:38,894 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:38,992 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:38,992 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:39,119 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:39,119 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:39,120 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:39,120 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:39,198 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:39,199 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
+2025-12-11 07:02:39,199 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:39,291 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:02:39,291 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:39,616 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
+2025-12-11 07:02:39,616 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:39,717 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
+2025-12-11 07:02:39,717 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:39,798 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
+2025-12-11 07:02:39,798 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:39,906 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
+2025-12-11 07:02:39,906 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:39,998 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(15))
+2025-12-11 07:02:39,998 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:39,999 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,116 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(15))
+2025-12-11 07:02:40,116 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,192 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
+2025-12-11 07:02:40,193 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,313 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
+2025-12-11 07:02:40,313 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,395 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
+2025-12-11 07:02:40,396 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:40,396 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,511 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
+2025-12-11 07:02:40,511 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,601 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
+2025-12-11 07:02:40,601 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:40,601 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,695 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
+2025-12-11 07:02:40,696 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,792 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
+2025-12-11 07:02:40,792 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:40,887 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
+2025-12-11 07:02:40,887 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:41,015 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(15))
+2025-12-11 07:02:41,016 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:02:41,016 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:41,016 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:41,116 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(15))
+2025-12-11 07:02:41,116 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:02:41,116 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:41,200 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(14))
+2025-12-11 07:02:41,201 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:41,318 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
+2025-12-11 07:02:41,318 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:41,420 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(13))
+2025-12-11 07:02:41,420 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:41,619 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(12))
+2025-12-11 07:02:41,619 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:41,894 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(11))
+2025-12-11 07:02:41,894 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:42,013 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(11))
+2025-12-11 07:02:42,013 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:42,013 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:42,118 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(11))
+2025-12-11 07:02:42,118 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:42,193 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(11))
+2025-12-11 07:02:42,193 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:42,298 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(11))
+2025-12-11 07:02:42,298 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:42,399 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(11))
+2025-12-11 07:02:42,399 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:42,504 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(11))
+2025-12-11 07:02:42,505 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:02:42,505 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:42,604 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(11))
+2025-12-11 07:02:42,604 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:02:42,605 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:42,721 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(10))
+2025-12-11 07:02:42,721 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:42,818 [totoro_0_code] INFO: Killer emergency escape: DOWN
+2025-12-11 07:02:42,819 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:43,104 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:02:43,105 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:43,209 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
+2025-12-11 07:02:43,210 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:43,306 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
+2025-12-11 07:02:43,306 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:43,398 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
+2025-12-11 07:02:43,398 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:43,515 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
+2025-12-11 07:02:43,515 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:43,602 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
+2025-12-11 07:02:43,602 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:43,694 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
+2025-12-11 07:02:43,695 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:43,801 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
+2025-12-11 07:02:43,802 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:43,802 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:43,906 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(7))
+2025-12-11 07:02:43,907 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:44,002 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
+2025-12-11 07:02:44,002 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:02:44,002 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:44,096 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
+2025-12-11 07:02:44,096 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:02:44,096 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:44,205 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
+2025-12-11 07:02:44,205 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:44,293 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:02:44,293 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:44,606 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(7))
+2025-12-11 07:02:44,607 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:44,690 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
+2025-12-11 07:02:44,690 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:44,809 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(8))
+2025-12-11 07:02:44,809 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:44,904 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(9))
+2025-12-11 07:02:44,904 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:45,001 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(7))
+2025-12-11 07:02:45,001 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:45,116 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(7))
+2025-12-11 07:02:45,116 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:45,196 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(7))
+2025-12-11 07:02:45,196 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:45,320 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(6))
+2025-12-11 07:02:45,320 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:45,407 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:45,407 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:45,407 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:45,520 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
+2025-12-11 07:02:45,520 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:45,607 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
+2025-12-11 07:02:45,607 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:45,607 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:45,713 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
+2025-12-11 07:02:45,713 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:45,796 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(4))
+2025-12-11 07:02:45,796 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:45,796 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:45,895 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:45,895 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:46,022 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(11))
+2025-12-11 07:02:46,022 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:46,313 [totoro_0_code] INFO: Killer emergency escape: RIGHT
+2025-12-11 07:02:46,313 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:46,550 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
+2025-12-11 07:02:46,550 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:46,670 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(11))
+2025-12-11 07:02:46,670 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:46,757 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
+2025-12-11 07:02:46,757 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:46,860 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(11))
+2025-12-11 07:02:46,861 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:46,861 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:46,974 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(11))
+2025-12-11 07:02:46,974 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:47,078 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(11))
+2025-12-11 07:02:47,079 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:47,154 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(10))
+2025-12-11 07:02:47,154 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:02:47,154 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:47,258 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(9))
+2025-12-11 07:02:47,258 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:02:47,258 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:47,350 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(9))
+2025-12-11 07:02:47,350 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:47,473 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:02:47,473 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:47,780 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:47,780 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:47,883 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
+2025-12-11 07:02:47,883 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:47,979 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
+2025-12-11 07:02:47,979 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:48,071 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
+2025-12-11 07:02:48,071 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:48,071 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:48,166 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(3))
+2025-12-11 07:02:48,166 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:48,285 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:02:48,285 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:48,481 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:02:48,482 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:48,585 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:02:48,586 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:48,586 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:48,664 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:02:48,664 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:48,789 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:02:48,789 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:48,789 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:48,887 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:02:48,888 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:48,888 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:48,961 [totoro_0_code] INFO: Killer emergency escape: RIGHT
+2025-12-11 07:02:48,961 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:49,185 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(2))
+2025-12-11 07:02:49,186 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:49,186 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:49,288 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:49,288 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:49,359 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:49,359 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:49,458 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:49,458 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:49,458 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:49,583 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(5))
+2025-12-11 07:02:49,583 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:49,584 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:49,664 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:02:49,664 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:49,869 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(3))
+2025-12-11 07:02:49,869 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:49,869 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:49,967 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:49,967 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:50,082 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:50,082 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:50,156 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:50,157 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:50,292 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:50,292 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:50,293 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:50,360 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(3))
+2025-12-11 07:02:50,360 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:50,467 [totoro_0_code] INFO: Killer emergency escape: RIGHT
+2025-12-11 07:02:50,467 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:50,766 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:50,766 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:50,888 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:50,888 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:50,988 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:50,988 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:51,066 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:51,067 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:51,189 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:51,189 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:51,270 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:51,270 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:51,270 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:51,390 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:51,391 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:51,484 [totoro_0_code] INFO: Killer emergency escape: RIGHT
+2025-12-11 07:02:51,484 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:51,687 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(3))
+2025-12-11 07:02:51,687 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:51,787 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:51,787 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:51,884 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:51,884 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:51,987 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:51,987 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:52,087 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:52,088 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:52,182 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:52,182 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:52,290 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:52,290 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:52,390 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:52,390 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:52,390 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:52,492 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:02:52,492 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:52,572 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:02:52,572 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:52,784 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(2))
+2025-12-11 07:02:52,784 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:52,878 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
+2025-12-11 07:02:52,879 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:52,968 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
+2025-12-11 07:02:52,968 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:53,086 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
+2025-12-11 07:02:53,086 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:53,187 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
+2025-12-11 07:02:53,188 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:53,287 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
+2025-12-11 07:02:53,288 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:53,288 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:53,363 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(7))
+2025-12-11 07:02:53,363 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:53,462 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:02:53,463 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:53,677 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
+2025-12-11 07:02:53,677 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:53,767 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
+2025-12-11 07:02:53,768 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:53,871 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
+2025-12-11 07:02:53,871 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:53,982 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
+2025-12-11 07:02:53,982 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:54,092 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
+2025-12-11 07:02:54,093 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:54,187 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
+2025-12-11 07:02:54,187 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:54,187 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:54,276 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(5))
+2025-12-11 07:02:54,276 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:54,393 [totoro_0_code] INFO: Killer emergency escape: DOWN
+2025-12-11 07:02:54,393 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:54,571 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(7))
+2025-12-11 07:02:54,572 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:54,690 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(7))
+2025-12-11 07:02:54,690 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:54,769 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(7))
+2025-12-11 07:02:54,769 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:54,884 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(7))
+2025-12-11 07:02:54,885 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:54,885 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:54,989 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(7))
+2025-12-11 07:02:54,989 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:55,086 [totoro_0_code] INFO: Killer emergency escape: DOWN
+2025-12-11 07:02:55,086 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:55,290 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(9))
+2025-12-11 07:02:55,290 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:02:55,397 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(9))
+2025-12-11 07:02:55,397 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:55,473 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(9))
+2025-12-11 07:02:55,474 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:55,596 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(9))
+2025-12-11 07:02:55,597 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:55,597 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:55,675 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(9))
+2025-12-11 07:02:55,676 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(10))
+2025-12-11 07:02:55,676 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:55,797 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(10))
+2025-12-11 07:02:55,797 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:55,992 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(10))
+2025-12-11 07:02:55,993 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:57,669 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:57,669 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:57,798 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
+2025-12-11 07:02:57,798 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:02:57,871 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(14))
+2025-12-11 07:02:57,871 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:57,871 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:58,003 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,003 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:58,004 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:02:58,088 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,088 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,088 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:02:58,089 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:02:58,195 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,196 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,196 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:02:58,300 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,300 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:02:58,499 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:02:58,499 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:03:06,892 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:06,892 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:06,998 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:06,998 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:06,998 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:06,999 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:03:07,093 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:07,093 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:07,093 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:07,188 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:07,188 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:07,301 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:07,301 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:07,514 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,514 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,514 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:03:07,596 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,596 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,596 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:07,699 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,700 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:07,772 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,772 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,773 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:07,773 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:03:07,891 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,892 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,892 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:07,996 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:07,996 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:08,112 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:03:08,112 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:08,298 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:08,298 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:08,402 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:08,402 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:08,494 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:08,494 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:08,599 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:08,599 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:08,599 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:08,599 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:03:08,700 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:08,701 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:08,701 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:08,796 [totoro_0_code] INFO: Killer emergency escape: DOWN
+2025-12-11 07:03:08,797 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:09,018 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(3))
+2025-12-11 07:03:09,018 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:03:34,138 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
+2025-12-11 07:03:34,139 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:34,253 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
+2025-12-11 07:03:34,253 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:34,355 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
+2025-12-11 07:03:34,355 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
+2025-12-11 07:03:34,355 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:34,355 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:03:34,480 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
+2025-12-11 07:03:34,480 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(1))
+2025-12-11 07:03:34,480 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:34,545 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:03:34,546 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:34,780 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,781 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,781 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,781 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:03:34,889 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,889 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,890 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(2))
+2025-12-11 07:03:34,890 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:03:34,964 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,965 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:03:34,965 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(2))
+2025-12-11 07:03:34,965 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:35,076 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,076 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:35,184 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,184 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:35,277 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,277 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:35,363 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,364 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:35,484 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,484 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:35,484 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:35,606 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,607 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,607 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:35,607 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:03:35,702 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,703 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:03:35,703 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(2))
+2025-12-11 07:03:35,703 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:35,801 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:03:35,801 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:36,094 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:03:36,094 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:36,200 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(4))
+2025-12-11 07:03:36,201 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:36,305 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
+2025-12-11 07:03:36,306 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:36,373 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:03:36,374 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:36,473 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(1))
+2025-12-11 07:03:36,474 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:36,749 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:03:36,750 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:36,750 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:36,826 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:03:36,826 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:36,909 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(2))
+2025-12-11 07:03:36,909 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:36,909 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:36,991 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(3))
+2025-12-11 07:03:36,991 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:37,133 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(4))
+2025-12-11 07:03:37,133 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:37,182 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(4))
+2025-12-11 07:03:37,182 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:37,498 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(3))
+2025-12-11 07:03:37,498 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:37,498 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:37,737 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(2))
+2025-12-11 07:03:37,737 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:03:37,737 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:37,985 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:03:37,985 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:03:37,985 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:03:38,013 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:03:38,013 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:38,163 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:03:38,163 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:03:38,766 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:03:38,766 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:03:38,817 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
+2025-12-11 07:03:38,817 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:03:38,979 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(4))
+2025-12-11 07:03:38,979 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:39,029 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:03:39,030 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:39,189 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
+2025-12-11 07:03:39,190 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:39,190 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:39,258 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
+2025-12-11 07:03:39,258 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:03:39,406 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(7))
+2025-12-11 07:03:39,406 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:39,430 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(7))
+2025-12-11 07:03:39,430 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:39,578 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(6))
+2025-12-11 07:03:39,579 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:03:39,579 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:03:39,713 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
+2025-12-11 07:03:39,714 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:03:39,714 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:05,051 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,051 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:05,162 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,162 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,162 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:05,162 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:05,233 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,234 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,234 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:05,367 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,367 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:05,463 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:05,463 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:05,709 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:05,709 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:05,851 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:05,851 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:06,093 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,093 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:06,211 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,211 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:06,320 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,320 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:06,343 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,344 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:06,557 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,557 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:06,659 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,659 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:06,709 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,710 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:06,858 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,859 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,859 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:06,859 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:06,995 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,996 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(1))
+2025-12-11 07:05:06,996 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:05:06,996 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:07,061 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:05:07,061 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:07,314 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(2))
+2025-12-11 07:05:07,315 [totoro_0_code] DEBUG: Suitable target found at (np.int64(5), np.int64(2))
+2025-12-11 07:05:07,315 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:05:07,441 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
+2025-12-11 07:05:07,441 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:05:07,691 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:05:07,691 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:07,808 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(1))
+2025-12-11 07:05:07,808 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:07,913 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:05:07,913 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:08,012 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(1))
+2025-12-11 07:05:08,012 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:08,253 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(1))
+2025-12-11 07:05:08,253 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:08,288 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(1))
+2025-12-11 07:05:08,288 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:05:08,288 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:08,288 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:08,476 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(2))
+2025-12-11 07:05:08,476 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:05:08,476 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:08,526 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(2))
+2025-12-11 07:05:08,526 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:05:08,526 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:08,693 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(2))
+2025-12-11 07:05:08,693 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:08,802 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:05:08,803 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:09,160 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(5))
+2025-12-11 07:05:09,161 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:09,205 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,205 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:09,387 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,387 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:09,387 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:09,425 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,425 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:09,635 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,635 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,636 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:09,636 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:09,697 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,698 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:09,698 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:09,831 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:05:09,831 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:10,025 [totoro_0_code] DEBUG: Suitable target found at (np.int64(7), np.int64(5))
+2025-12-11 07:05:10,026 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:05:38,987 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:38,988 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:39,149 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:39,149 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:39,255 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:39,255 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:39,256 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:39,256 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:39,311 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:39,312 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:39,312 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:39,479 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:05:39,479 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:39,725 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
+2025-12-11 07:05:39,725 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:05:39,749 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:39,749 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:05:39,931 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:39,931 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:40,045 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,045 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:40,126 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,126 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:40,279 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,279 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:40,423 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,423 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:40,525 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,526 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:05:40,568 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,568 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,568 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:40,568 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:40,769 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,769 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(15))
+2025-12-11 07:05:40,770 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:40,898 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:05:40,898 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:05:41,226 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:05:41,226 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:41,347 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,348 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,348 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:41,466 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,466 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:41,467 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:05:41,572 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,573 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,573 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:05:41,574 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:05:41,651 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,651 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,652 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:05:41,652 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:05:41,817 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:41,817 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:05:42,007 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(13))
+2025-12-11 07:05:42,007 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:07:40,757 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:40,757 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:40,903 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:40,903 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:40,903 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:40,903 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:07:40,990 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:40,991 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:40,991 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:41,078 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:41,078 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:41,196 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(15))
+2025-12-11 07:07:41,196 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:41,420 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:41,421 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:07:41,517 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:41,517 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:41,626 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:41,626 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:41,739 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:41,740 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:41,876 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:41,876 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:41,876 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:42,017 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:42,018 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:42,161 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,161 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:42,161 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:42,269 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,269 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,269 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:42,269 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:07:42,369 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,369 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,369 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,369 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:42,425 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,425 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:42,595 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:42,595 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:42,786 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:42,786 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:42,903 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:42,903 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:43,028 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:43,028 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:43,263 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(14))
+2025-12-11 07:07:43,263 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:43,264 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:43,373 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:43,373 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:43,473 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:43,473 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:43,474 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:43,474 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:07:43,550 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:43,551 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(15))
+2025-12-11 07:07:43,551 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:43,551 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:43,818 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:07:43,818 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:43,970 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:43,970 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:44,141 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:44,141 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:44,392 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:44,392 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:44,393 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:44,393 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:44,491 [totoro_0_code] DEBUG: Suitable target found at (np.int64(8), np.int64(13))
+2025-12-11 07:07:44,491 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:44,491 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:44,635 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(15))
+2025-12-11 07:07:44,636 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:44,636 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:44,758 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
+2025-12-11 07:07:44,758 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:44,758 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:44,887 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
+2025-12-11 07:07:44,887 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:45,014 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(12))
+2025-12-11 07:07:45,014 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:45,118 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:07:45,119 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:45,204 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
+2025-12-11 07:07:45,204 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,325 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:45,325 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,400 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(11))
+2025-12-11 07:07:45,400 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:45,400 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,512 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(11))
+2025-12-11 07:07:45,512 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,568 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:45,568 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,701 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:07:45,701 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,796 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:45,797 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:45,850 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:07:45,851 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:45,980 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:07:45,980 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:46,050 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:46,051 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:46,201 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:07:46,201 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:07:46,201 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:46,301 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:07:46,301 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:07:46,301 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:46,373 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:46,373 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:07:46,374 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:46,517 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:46,518 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:07:46,518 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:07:46,588 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(11))
+2025-12-11 07:07:46,589 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:46,744 [totoro_0_code] INFO: Killer emergency escape: RIGHT
+2025-12-11 07:07:46,744 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:07:47,082 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(13))
+2025-12-11 07:07:47,082 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:07:47,212 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(12))
+2025-12-11 07:07:47,212 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:47,291 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(11))
+2025-12-11 07:07:47,292 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:07:47,511 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(11))
+2025-12-11 07:07:47,511 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:47,635 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:07:47,636 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:07:47,828 [totoro_0_code] DEBUG: Suitable target found at (np.int64(3), np.int64(12))
+2025-12-11 07:07:47,828 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:08:25,350 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:08:25,350 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:25,444 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:08:25,444 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:08:25,444 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:25,444 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:25,471 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:08:25,471 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:08:25,471 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:25,658 [totoro_0_code] DEBUG: Suitable target found at (np.int64(2), np.int64(1))
+2025-12-11 07:08:25,658 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:25,744 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:08:25,745 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:08:25,745 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:25,998 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:08:25,998 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:08:25,998 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:08:26,082 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:08:26,083 [totoro_0_code] DEBUG: Suitable target found at (np.int64(1), np.int64(2))
+2025-12-11 07:08:26,083 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:26,210 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,210 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:26,359 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,359 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:26,454 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,455 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:26,455 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:26,570 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,570 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:26,687 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,687 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:26,687 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:26,780 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,781 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,781 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:26,781 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:26,848 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,849 [totoro_0_code] DEBUG: Suitable target found at (np.int64(6), np.int64(1))
+2025-12-11 07:08:26,849 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:27,016 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:08:27,016 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:27,335 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:27,336 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:27,358 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:27,358 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:27,528 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:27,528 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:27,677 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:27,678 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:27,678 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:27,779 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:27,779 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:28,018 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,019 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:28,019 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:28,058 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,059 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:28,269 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,269 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:28,381 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,381 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:28,405 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,405 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,405 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:28,406 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:28,585 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,586 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,586 [totoro_0_code] DEBUG: Suitable target found at (np.int64(4), np.int64(1))
+2025-12-11 07:08:28,586 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:28,680 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:08:28,680 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:28,901 [totoro_0_code] DEBUG: Suitable target found at (np.int64(9), np.int64(1))
+2025-12-11 07:08:28,902 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:08:28,932 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:28,932 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:08:29,113 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(1))
+2025-12-11 07:08:29,113 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:29,240 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:29,240 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,322 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(3))
+2025-12-11 07:08:29,322 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,482 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(4))
+2025-12-11 07:08:29,482 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,591 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:29,591 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,673 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
+2025-12-11 07:08:29,673 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,826 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
+2025-12-11 07:08:29,827 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,928 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:29,929 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:29,929 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:29,988 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:29,989 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:30,132 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(7))
+2025-12-11 07:08:30,132 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:30,232 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(6))
+2025-12-11 07:08:30,232 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:30,346 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:30,346 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:08:30,346 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:30,346 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:30,369 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(5))
+2025-12-11 07:08:30,369 [totoro_0_code] INFO: Killer attacking enemy at distance 2
+2025-12-11 07:08:30,369 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:30,565 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(5))
+2025-12-11 07:08:30,565 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:30,684 [totoro_0_code] INFO: Killer emergency escape: DOWN
+2025-12-11 07:08:30,684 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:30,985 [totoro_0_code] DEBUG: Suitable target found at (np.int64(10), np.int64(5))
+2025-12-11 07:08:30,986 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:31,237 [totoro_0_code] INFO: Killer emergency escape: LEFT
+2025-12-11 07:08:31,237 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:31,443 [totoro_0_code] DEBUG: Suitable target found at (np.int64(11), np.int64(5))
+2025-12-11 07:08:31,444 [totoro_0_code] INFO: Killer attacking enemy at distance 1
+2025-12-11 07:08:31,444 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:41,013 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:41,013 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:41,106 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:41,106 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:41,106 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:41,107 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:41,239 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:41,239 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:41,239 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:41,479 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(2))
+2025-12-11 07:08:41,479 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:41,593 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,594 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,594 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:41,813 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,814 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,814 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,814 [totoro_0_code] INFO: Agent totoro_0: action WAIT
+2025-12-11 07:08:41,879 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,880 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,881 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:41,881 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:42,025 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,026 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:42,049 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,049 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:42,211 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,211 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:42,211 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:42,331 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,331 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:42,411 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,411 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,411 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:42,412 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:42,506 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,506 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(5))
+2025-12-11 07:08:42,506 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:42,640 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:08:42,640 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:43,100 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(6))
+2025-12-11 07:08:43,100 [totoro_0_code] INFO: Agent totoro_0: action LEFT
+2025-12-11 07:08:43,202 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:43,203 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:43,203 [totoro_0_code] DEBUG: Suitable target found at (np.int64(14), np.int64(1))
+2025-12-11 07:08:43,203 [totoro_0_code] INFO: Agent totoro_0: action RIGHT
+2025-12-11 07:08:43,288 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,288 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:43,416 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,416 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:43,506 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,507 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:43,507 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:43,596 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,596 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:43,739 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,740 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:43,822 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,823 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:43,980 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:43,980 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:43,980 [totoro_0_code] INFO: Agent totoro_0: action DOWN
+2025-12-11 07:08:44,062 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:44,062 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:44,063 [totoro_0_code] INFO: Killer placing bomb near crate (safe)
+2025-12-11 07:08:44,063 [totoro_0_code] INFO: Agent totoro_0: action BOMB
+2025-12-11 07:08:44,223 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:44,223 [totoro_0_code] DEBUG: Suitable target found at (np.int64(15), np.int64(8))
+2025-12-11 07:08:44,224 [totoro_0_code] DEBUG: Suitable target found at (np.int64(12), np.int64(5))
+2025-12-11 07:08:44,224 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:44,336 [totoro_0_code] INFO: Killer emergency escape: UP
+2025-12-11 07:08:44,336 [totoro_0_code] INFO: Agent totoro_0: action UP
+2025-12-11 07:08:44,679 [totoro_0_code] DEBUG: Suitable target found at (np.int64(13), np.int64(15))
+2025-12-11 07:08:44,679 [totoro_0_code] INFO: Agent totoro_0: action UP
