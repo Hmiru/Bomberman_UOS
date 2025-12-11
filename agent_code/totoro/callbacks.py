@@ -202,6 +202,11 @@ def is_safe_to_bomb_strict(game_state, x, y, role="killer"):
     arena = game_state['field']
     bombs = game_state['bombs']
     others = game_state['others']
+    step = game_state['step']
+    
+    # 게임 초반에는 안전 체크 생략 (빠른 탈출)
+    if step < 10:
+        return True
     
     # 이미 다른 폭탄이 많으면 설치 금지 (3개까지 허용)
     if len(bombs) >= 3:
@@ -249,11 +254,49 @@ def is_safe_to_bomb_strict(game_state, x, y, role="killer"):
 
 
 def act_as_killer(self, game_state, valid_actions, enemies, bomb_xys, coins, teammate_pos=None):
-    """킬러 전략 - 적 추적 및 제거 (팀 협동 강화)"""
+    """킬러 전략 - 적 추적 및 제거, 적 없으면 코인/상자 파괴"""
     action_ideas = []
     
     arena = game_state['field']
-    _, _, _, (x, y) = game_state['self']
+    _, _, bombs_left, (x, y) = game_state['self']
+    
+    # 적이 모두 죽었으면 즉시 코인/상자 모드로 전환
+    if not enemies:
+        self.logger.info("Killer: No enemies left, switching to collection mode")
+        free_space = arena == 0
+        
+        # 코인 수집 최우선
+        if coins:
+            d = look_for_targets(free_space, (x, y), coins, self.logger)
+            if d:
+                self.logger.info(f"Killer: Moving to coin at {d}")
+                if d == (x, y - 1): return 'UP' if 'UP' in valid_actions else None
+                elif d == (x, y + 1): return 'DOWN' if 'DOWN' in valid_actions else None
+                elif d == (x - 1, y): return 'LEFT' if 'LEFT' in valid_actions else None
+                elif d == (x + 1, y): return 'RIGHT' if 'RIGHT' in valid_actions else None
+        
+        # 코인이 없으면 상자 파괴
+        cols = range(1, arena.shape[0] - 1)
+        rows = range(1, arena.shape[1] - 1)
+        crates = [(r, c) for r in rows for c in cols if arena[r, c] == 1]
+        
+        if crates:
+            d = look_for_targets(free_space, (x, y), crates, self.logger)
+            if d:
+                self.logger.info(f"Killer: Moving to crate at {d}")
+                if d == (x, y - 1): action_ideas.append('UP')
+                elif d == (x, y + 1): action_ideas.append('DOWN')
+                elif d == (x - 1, y): action_ideas.append('LEFT')
+                elif d == (x + 1, y): action_ideas.append('RIGHT')
+            
+            # 상자 옆에 있으면 폭탄
+            crate_nearby = any(arena[nx, ny] == 1 for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]
+                              if 0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1])
+            if crate_nearby and bombs_left > 0 and 'BOMB' in valid_actions:
+                if is_safe_to_bomb_strict(game_state, x, y, "killer"):
+                    self.bomb_history.append((x, y))
+                    self.logger.info("Killer: Bombing crate (no enemies)")
+                    return 'BOMB'
     
     # 팀원과의 협동 공격 체크
     if teammate_pos and enemies:
@@ -275,44 +318,41 @@ def act_as_killer(self, game_state, valid_actions, enemies, bomb_xys, coins, tea
             elif closest_enemy[1] < y and teammate_pos[1] > closest_enemy[1]:
                 action_ideas.append('UP')     # 나는 아래에서
     
-    # 폭탄 회피 최우선
+    # 초반 탈출 최우선: 게임 시작 시 상자에 둘러싸여 있는지 체크
+    if game_state['step'] < 30:  # 게임 초반
+        surrounded_by_crates = 0
+        free_tiles = []
+        for dx, dy, direction in [(0, 1, 'DOWN'), (0, -1, 'UP'), (1, 0, 'RIGHT'), (-1, 0, 'LEFT')]:
+            nx, ny = x + dx, y + dy
+            if 0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1]:
+                if arena[nx, ny] == 1:
+                    surrounded_by_crates += 1
+                elif arena[nx, ny] == 0:
+                    free_tiles.append(direction)
+        
+        # 1개라도 상자가 있으면 즉시 폭탄 (초반 탈출)
+        if surrounded_by_crates >= 1 and 'BOMB' in valid_actions:
+            # 안전 체크 없이 바로 폭탄 (초반에는 안전)
+            self.bomb_history.append((x, y))
+            self.logger.info(f"Killer: Initial escape bomb! ({surrounded_by_crates} crates)")
+            return 'BOMB'
+    
+    # 폭탄 회피 체크
     escape_actions = get_escape_actions(x, y, game_state['bombs'], arena)
     if escape_actions:
-        # 위험한 상황이면 즉시 탈출
         for action in escape_actions:
             if action in valid_actions:
                 self.logger.info(f"Killer emergency escape: {action}")
                 return action
     
-    # 초반 탈출 개선: 상자에 둘러싸여 있는지 체크
-    surrounded_by_crates = 0
-    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
-        nx, ny = x + dx, y + dy
-        if 0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1]:
-            if arena[nx, ny] == 1:
-                surrounded_by_crates += 1
-    
-    # 상자에 많이 둘러싸여 있으면 폭탄 (안전 체크 필수)
-    if surrounded_by_crates >= 3 and 'BOMB' in valid_actions:
-        # 탈출 경로가 확실한 경우만 폭탄 설치
-        if is_safe_to_bomb_strict(game_state, x, y, "killer"):
-            self.bomb_history.append((x, y))
-            self.logger.info(f"Killer placing bomb to escape crates (safe)")
-            return 'BOMB'
-        else:
-            # 탈출 불가능하면 이동 시도
-            for action in ['UP', 'DOWN', 'LEFT', 'RIGHT']:
-                if action in valid_actions:
-                    self.logger.info(f"Killer moving instead of bombing: {action}")
-                    return action
-    
     # 타겟 설정
     free_space = arena == 0
     
-    # 1순위: 적 추적
+    # 적이 있으면 추적 (최우선)
     if enemies:
         d = look_for_targets(free_space, (x, y), enemies, self.logger)
         if d:
+            self.logger.info(f"Killer: Tracking enemy to {d}")
             if d == (x, y - 1): action_ideas.append('UP')
             elif d == (x, y + 1): action_ideas.append('DOWN')
             elif d == (x - 1, y): action_ideas.append('LEFT')
@@ -328,14 +368,16 @@ def act_as_killer(self, game_state, valid_actions, enemies, bomb_xys, coins, tea
                 else:
                     self.logger.info(f"Killer skipping bomb - unsafe")
     
-    # 2순위: 상자 파괴 (길 뚫기)
+    # 상자 파괴 (적이 멀거나 경로에 있을 때)
     cols = range(1, arena.shape[0] - 1)
     rows = range(1, arena.shape[1] - 1)
     crates = [(r, c) for r in rows for c in cols if arena[r, c] == 1]
     
-    if not action_ideas and crates:
+    # 항상 상자를 고려 (적이 없거나 멀 때)
+    if crates and (not enemies or min(abs(e[0] - x) + abs(e[1] - y) for e in enemies) > 5):
         d = look_for_targets(free_space, (x, y), crates, self.logger)
         if d:
+            self.logger.info(f"Killer: Moving to crate at {d}")
             if d == (x, y - 1): action_ideas.append('UP')
             elif d == (x, y + 1): action_ideas.append('DOWN')
             elif d == (x - 1, y): action_ideas.append('LEFT')
@@ -356,14 +398,23 @@ def act_as_killer(self, game_state, valid_actions, enemies, bomb_xys, coins, tea
         else:
             self.logger.info("Killer avoiding bomb near crate - unsafe")
     
-    # 3순위: 코인 수집
-    if coins and not action_ideas:
+    # 코인 수집 (항상 고려)
+    if coins:
         d = look_for_targets(free_space, (x, y), coins, self.logger)
-        if d and d != (x, y):  # 이미 코인 위치에 있는 경우 제외
-            if d == (x, y - 1): action_ideas.append('UP')
-            elif d == (x, y + 1): action_ideas.append('DOWN')
-            elif d == (x - 1, y): action_ideas.append('LEFT')
-            elif d == (x + 1, y): action_ideas.append('RIGHT')
+        if d and d != (x, y):
+            self.logger.info(f"Killer: Collecting coin at {d}")
+            # 코인이 가까우면 우선
+            coin_dist = abs(d[0] - x) + abs(d[1] - y)
+            if coin_dist <= 3:
+                if d == (x, y - 1): action_ideas.insert(0, 'UP')
+                elif d == (x, y + 1): action_ideas.insert(0, 'DOWN')
+                elif d == (x - 1, y): action_ideas.insert(0, 'LEFT')
+                elif d == (x + 1, y): action_ideas.insert(0, 'RIGHT')
+            else:
+                if d == (x, y - 1): action_ideas.append('UP')
+                elif d == (x, y + 1): action_ideas.append('DOWN')
+                elif d == (x - 1, y): action_ideas.append('LEFT')
+                elif d == (x + 1, y): action_ideas.append('RIGHT')
     
     # 유효한 행동 선택
     for a in action_ideas:
@@ -383,37 +434,62 @@ def act_as_killer(self, game_state, valid_actions, enemies, bomb_xys, coins, tea
 
 
 def act_as_lurer(self, game_state, valid_actions, enemies, bomb_xys, coins, teammate_pos=None):
-    """루러 전략 - 적극적 코인 수집 및 유인 (개선된 폭탄 사용)"""
+    """루러 전략 - 공격적 플레이 + 코인 수집"""
     action_ideas = []
     
     arena = game_state['field']
     _, _, bombs_left, (x, y) = game_state['self']
     
-    # 팀원이 적과 전투 중이면 측면 지원
-    if teammate_pos and enemies:
-        for enemy in enemies:
-            enemy_dist_to_teammate = abs(enemy[0] - teammate_pos[0]) + abs(enemy[1] - teammate_pos[1])
-            enemy_dist_to_me = abs(enemy[0] - x) + abs(enemy[1] - y)
+    # 적이 모두 죽었으면 즉시 코인 수집 모드
+    if not enemies:
+        self.logger.info("Lurer: No enemies, switching to coin collection mode")
+        if coins:
+            free_space = arena == 0
+            d = look_for_targets(free_space, (x, y), coins, self.logger)
+            if d:
+                if d == (x, y - 1): return 'UP' if 'UP' in valid_actions else None
+                elif d == (x, y + 1): return 'DOWN' if 'DOWN' in valid_actions else None
+                elif d == (x - 1, y): return 'LEFT' if 'LEFT' in valid_actions else None
+                elif d == (x + 1, y): return 'RIGHT' if 'RIGHT' in valid_actions else None
+    
+    # 적이 있으면 공격적으로 대응
+    if enemies:
+        closest_enemy = min(enemies, key=lambda e: abs(e[0] - x) + abs(e[1] - y))
+        enemy_dist = abs(closest_enemy[0] - x) + abs(closest_enemy[1] - y)
+        
+        # 가까운 적에게 공격적으로 접근
+        if enemy_dist <= 4:
+            self.logger.info(f"Lurer: Aggressively engaging enemy at distance {enemy_dist}")
             
-            # 팀원이 적과 가까이 있고 나도 가까이 있으면
-            if enemy_dist_to_teammate <= 3 and enemy_dist_to_me <= 5:
-                self.logger.info(f"Lurer: Supporting teammate in combat!")
-                
-                # 적의 퇴로 차단 시도
-                if enemy[0] > teammate_pos[0] and x < enemy[0]:
-                    action_ideas.append('RIGHT')  # 적의 반대편으로
-                elif enemy[0] < teammate_pos[0] and x > enemy[0]:
+            # 적에게 접근
+            free_space = arena == 0
+            d = look_for_targets(free_space, (x, y), [closest_enemy], self.logger)
+            if d:
+                if d == (x, y - 1): action_ideas.append('UP')
+                elif d == (x, y + 1): action_ideas.append('DOWN')
+                elif d == (x - 1, y): action_ideas.append('LEFT')
+                elif d == (x + 1, y): action_ideas.append('RIGHT')
+            
+            # 적과 가까우면 폭탄 (더 공격적으로)
+            if enemy_dist <= 2 and bombs_left > 0 and 'BOMB' in valid_actions:
+                if is_safe_to_bomb_strict(game_state, x, y, "lurer"):
+                    action_ideas.insert(0, 'BOMB')  # 최우선
+                    self.logger.info("Lurer: Attacking with bomb!")
+        
+        # 팀원과 협동 공격
+        if teammate_pos:
+            enemy_dist_to_teammate = abs(closest_enemy[0] - teammate_pos[0]) + abs(closest_enemy[1] - teammate_pos[1])
+            if enemy_dist_to_teammate <= 3 and enemy_dist <= 5:
+                self.logger.info("Lurer: Coordinating attack with teammate")
+                # 포위 공격
+                if closest_enemy[0] > teammate_pos[0]:
+                    action_ideas.append('RIGHT')
+                else:
                     action_ideas.append('LEFT')
-                if enemy[1] > teammate_pos[1] and y < enemy[1]:
+                if closest_enemy[1] > teammate_pos[1]:
                     action_ideas.append('DOWN')
-                elif enemy[1] < teammate_pos[1] and y > enemy[1]:
+                else:
                     action_ideas.append('UP')
-                
-                # 적절한 거리에서 폭탄으로 지원
-                if enemy_dist_to_me == 3 and bombs_left > 0 and 'BOMB' in valid_actions:
-                    if is_safe_to_bomb_strict(game_state, x, y, "lurer"):
-                        action_ideas.append('BOMB')
-                        self.logger.info("Lurer: Supporting with bomb!")
     
     # 폭탄 회피 최우선
     escape_actions = get_escape_actions(x, y, game_state['bombs'], arena)
@@ -423,8 +499,8 @@ def act_as_lurer(self, game_state, valid_actions, enemies, bomb_xys, coins, team
                 self.logger.info(f"Lurer emergency escape: {action}")
                 return action
     
-    # 초기 상자 탈출 체크 (게임 시작 시) - 더 적극적으로
-    if game_state['step'] < 20:  # 초반 더 길게
+    # 초기 상자 탈출 체크 (게임 시작 시) - 즉시 폭탄
+    if game_state['step'] < 30:  # 초반
         surrounded_by_crates = 0
         free_directions = []
         for dx, dy, direction in [(0, 1, 'DOWN'), (0, -1, 'UP'), (1, 0, 'RIGHT'), (-1, 0, 'LEFT')]:
@@ -435,75 +511,51 @@ def act_as_lurer(self, game_state, valid_actions, enemies, bomb_xys, coins, team
                 elif arena[nx, ny] == 0:
                     free_directions.append(direction)
         
-        # 1개라도 막혔으면 폭탄 고려 (매우 적극적)
+        # 1개라도 막혔으면 즉시 폭탄 (초반 탈출 우선)
         if surrounded_by_crates >= 1 and 'BOMB' in valid_actions:
-            # 안전 체크
-            if is_safe_to_bomb_strict(game_state, x, y, "lurer"):
-                self.bomb_history.append((x, y))
-                self.logger.info(f"Lurer placing bomb - {surrounded_by_crates} sides blocked")
-                return 'BOMB'
-        elif surrounded_by_crates >= 2 and free_directions:
-            # 탈출 가능하면 탈출
-            for direction in free_directions:
-                if direction in valid_actions:
-                    self.logger.info(f"Lurer escaping: {direction}")
-                    return direction
+            self.bomb_history.append((x, y))
+            self.logger.info(f"Lurer: Initial escape bomb! ({surrounded_by_crates} crates)")
+            return 'BOMB'
     
     free_space = arena == 0
     
-    # 1순위: 코인 수집 (폭탄 없이)
-    if coins:
+    # 코인 수집 (적이 멀거나 없을 때 최우선)
+    if coins and (not enemies or min(abs(e[0] - x) + abs(e[1] - y) for e in enemies) > 4):
         # 가장 가까운 코인 찾기
         d = look_for_targets(free_space, (x, y), coins, self.logger)
-        if d and d != (x, y):  # 이미 코인 위치에 있는 경우 제외
-            self.logger.info(f"Lurer found coin target at {d}, current pos ({x},{y})")
+        if d and d != (x, y):
+            self.logger.info(f"Lurer collecting coin at {d}")
             if d == (x, y - 1): 
-                action_ideas.append('UP')
-                self.logger.info("Lurer moving UP for coin")
+                action_ideas.insert(0, 'UP')  # 최우선
             elif d == (x, y + 1): 
-                action_ideas.append('DOWN')
-                self.logger.info("Lurer moving DOWN for coin")
+                action_ideas.insert(0, 'DOWN')
             elif d == (x - 1, y): 
-                action_ideas.append('LEFT')
-                self.logger.info("Lurer moving LEFT for coin")
+                action_ideas.insert(0, 'LEFT')
             elif d == (x + 1, y): 
-                action_ideas.append('RIGHT')
-                self.logger.info("Lurer moving RIGHT for coin")
-        elif d == (x, y):
-            self.logger.info(f"Lurer already at coin position, looking for next coin")
-        else:
-            self.logger.info(f"Lurer couldn't find path to {len(coins)} coins")
+                action_ideas.insert(0, 'RIGHT')
     
-    # 2순위: 전략적 유인 (단순 회피 대신)
+    # 적이 너무 가까우면 회피하면서 폭탄
     if enemies and not action_ideas:
         min_enemy = min(enemies, key=lambda e: abs(e[0] - x) + abs(e[1] - y))
         enemy_dist = abs(min_enemy[0] - x) + abs(min_enemy[1] - y)
         
-        # 적을 팀원 쪽으로 유인
-        if enemy_dist <= 5 and teammate_pos:
-            # 팀원 방향으로 이동하면서 적을 끌고감
-            if teammate_pos[0] > x and 'RIGHT' in valid_actions:
-                action_ideas.append('RIGHT')
-                self.logger.info("Lurer: Luring enemy towards teammate (RIGHT)")
-            elif teammate_pos[0] < x and 'LEFT' in valid_actions:
-                action_ideas.append('LEFT')
-                self.logger.info("Lurer: Luring enemy towards teammate (LEFT)")
-            if teammate_pos[1] > y and 'DOWN' in valid_actions:
-                action_ideas.append('DOWN')
-                self.logger.info("Lurer: Luring enemy towards teammate (DOWN)")
-            elif teammate_pos[1] < y and 'UP' in valid_actions:
-                action_ideas.append('UP')
-                self.logger.info("Lurer: Luring enemy towards teammate (UP)")
-        elif enemy_dist <= 3:  # 너무 가까우면 회피
+        if enemy_dist <= 2:  # 매우 가까우면
+            # 폭탄 놓고 도망
+            if bombs_left > 0 and 'BOMB' in valid_actions:
+                if is_safe_to_bomb_strict(game_state, x, y, "lurer"):
+                    self.bomb_history.append((x, y))
+                    self.logger.info("Lurer: Emergency bomb and escape!")
+                    return 'BOMB'
+            
             # 반대 방향으로 도망
             if min_enemy[0] > x and 'LEFT' in valid_actions: 
-                action_ideas.append('LEFT')
+                return 'LEFT'
             elif min_enemy[0] < x and 'RIGHT' in valid_actions: 
-                action_ideas.append('RIGHT')
+                return 'RIGHT'
             if min_enemy[1] > y and 'UP' in valid_actions: 
-                action_ideas.append('UP')
+                return 'UP'
             elif min_enemy[1] < y and 'DOWN' in valid_actions: 
-                action_ideas.append('DOWN')
+                return 'DOWN'
     
     # 3순위: 상자 파괴 (코인이 없을 때)
     if not coins:
@@ -539,11 +591,13 @@ def act_as_lurer(self, game_state, valid_actions, enemies, bomb_xys, coins, team
                     action_ideas.insert(0, 'BOMB')  # 우선순위 높임
                     self.logger.info(f"Lurer actively bombing {crate_count} crates")
     
-    # 유효한 행동 선택 (폭탄은 최후의 수단)
-    non_bomb_actions = [a for a in action_ideas if a != 'BOMB' and a in valid_actions]
-    if non_bomb_actions:
-        self.logger.info(f"Lurer executing action from ideas: {non_bomb_actions[0]}")
-        return non_bomb_actions[0]
+    # 유효한 행동 선택 (폭탄도 적극 사용)
+    for a in action_ideas:
+        if a in valid_actions:
+            if a == 'BOMB':
+                self.bomb_history.append((x, y))
+            self.logger.info(f"Lurer executing action: {a}")
+            return a
     
     # 기본 이동
     if valid_actions:
@@ -553,12 +607,16 @@ def act_as_lurer(self, game_state, valid_actions, enemies, bomb_xys, coins, team
             self.logger.info(f"Lurer using random movement: {movement_actions[0]} (no action ideas)")
             return movement_actions[0]
     
-    # 정말 최후의 수단으로만 폭탄
-    if 'BOMB' in action_ideas and 'BOMB' in valid_actions:
-        # 한 번 더 안전 체크
-        if is_safe_to_bomb_strict(game_state, x, y, "lurer"):
+    # 아무 행동도 없으면 폭탄 고려
+    if not action_ideas and 'BOMB' in valid_actions:
+        # 주변에 상자가 있거나 적이 있으면
+        crate_nearby = any(arena[nx, ny] == 1 for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]
+                          if 0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1])
+        enemy_nearby = enemies and min(abs(e[0] - x) + abs(e[1] - y) for e in enemies) <= 3
+        
+        if (crate_nearby or enemy_nearby) and is_safe_to_bomb_strict(game_state, x, y, "lurer"):
             self.bomb_history.append((x, y))
-            self.logger.info("Lurer placing bomb as absolute last resort")
+            self.logger.info("Lurer placing aggressive bomb")
             return 'BOMB'
     
     return 'WAIT' if 'WAIT' in valid_actions else valid_actions[0] if valid_actions else 'WAIT'
