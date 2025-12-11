@@ -1,31 +1,15 @@
-2025-12-10 23:00:50,033 [totoro_1_code] DEBUG: Successfully entered setup code
-2025-12-10 23:00:50,278 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-10 23:00:50,278 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 23:00:50,359 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-10 23:00:50,359 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
-2025-12-10 23:00:50,453 [totoro_1_code] DEBUG: Suitable target found at (np.int64(2), np.int64(15))
-2025-12-10 23:00:50,454 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
-2025-12-10 23:00:50,553 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-10 23:00:50,554 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 23:00:50,656 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-10 23:00:50,656 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 23:00:50,754 [totoro_1_code] DEBUG: Suitable target found at (np.int64(1), np.int64(14))
-2025-12-10 23:00:50,755 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: UP
-2025-12-10 23:00:50,856 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
-2025-12-10 23:00:50,856 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: WAIT
-2025-12-10 23:00:50,957 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
-2025-12-10 23:00:50,957 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: DOWN
-2025-12-10 23:00:51,055 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
-2025-12-10 23:00:51,055 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 23:00:51,158 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
-2025-12-10 23:00:51,158 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 23:00:51,256 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
-2025-12-10 23:00:51,256 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: BOMB
-2025-12-10 23:00:51,356 [totoro_1_code] DEBUG: Suitable target found at (np.int64(4), np.int64(15))
-2025-12-10 23:00:51,356 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 23:00:51,466 [totoro_1_code] DEBUG: Suitable target found at (np.int64(3), np.int64(15))
-2025-12-10 23:00:51,466 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: RIGHT
-2025-12-10 23:00:51,606 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
-2025-12-10 23:00:51,606 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: LEFT
-2025-12-10 23:00:51,636 [totoro_1_code] DEBUG: Suitable target found at (np.int64(5), np.int64(15))
-2025-12-10 23:00:51,636 [totoro_1_code] INFO: I am totoro_1, acting as LURER. Chosen action: WAIT
+2025-12-11 05:02:22,588 [totoro_1_code] DEBUG: Successfully entered setup code
+2025-12-11 05:02:22,930 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:02:23,116 [totoro_1_code] INFO: Emergency Escape! Action: UP
+2025-12-11 05:02:23,723 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:02:23,941 [totoro_1_code] INFO: Emergency Escape! Action: LEFT
+2025-12-11 05:02:24,530 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:02:24,733 [totoro_1_code] INFO: Emergency Escape! Action: RIGHT
+2025-12-11 05:02:28,345 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:02:31,867 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:02:32,057 [totoro_1_code] INFO: Emergency Escape! Action: RIGHT
+2025-12-11 05:02:32,649 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:02:32,868 [totoro_1_code] INFO: Emergency Escape! Action: DOWN
+2025-12-11 05:02:33,668 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:03:01,053 [totoro_1_code] INFO: Lurer: Bombing crate with a safe escape route.
+2025-12-11 05:03:01,253 [totoro_1_code] INFO: Emergency Escape! Action: DOWN
