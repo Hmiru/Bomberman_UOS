@@ -121,4 +121,4 @@ __pycache__/
 
 # Test logs
 test_logs/
-.md
+*.md
