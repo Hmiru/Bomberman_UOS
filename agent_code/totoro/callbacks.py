@@ -173,7 +173,26 @@ def quick_bomb_safety_check(game_state, my_pos):
     arena = game_state['field']
     x, y = my_pos
     
-    # 주변에 최소 2개 이상의 탈출 경로가 있는지 확인
+    # 주변에 상자가 있으면 무조건 폭탄 설치 허용 (초기 상황 대응)
+    has_crate_nearby = False
+    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+        nx, ny = x + dx, y + dy
+        if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
+            arena[nx, ny] == 1):  # 1은 상자
+            has_crate_nearby = True
+            break
+    
+    if has_crate_nearby:
+        # 상자가 있으면 최소한의 안전 체크만
+        free_neighbors = 0
+        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+            nx, ny = x + dx, y + dy
+            if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
+                arena[nx, ny] == 0):
+                free_neighbors += 1
+        return free_neighbors >= 1  # 최소 1개의 빈 공간만 있으면 OK
+    
+    # 상자가 없는 경우 기존 로직
     escape_routes = 0
     for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
         nx, ny = x + dx, y + dy
@@ -190,37 +209,56 @@ def quick_bomb_safety_check(game_state, my_pos):
     return escape_routes >= 2
 
 def act_as_killer_optimized(self, game_state, valid_actions, enemies, bomb_xys):
-    """최적화된 킬러 전략"""
+    """최적화된 킬러 전략 - 적 처치 최우선"""
     arena = game_state['field']
     _, _, _, (x, y) = game_state['self']
     
-    # 1. 적이 가까이 있고 폭탄 설치 가능하면 공격
-    if enemies and 'BOMB' in valid_actions:
+    # 1. [최우선] 적 추적 및 공격
+    if enemies:
         closest_enemy = min(enemies, key=lambda e: abs(e[0] - x) + abs(e[1] - y))
         dist = abs(closest_enemy[0] - x) + abs(closest_enemy[1] - y)
         
-        if dist <= 3:
+        # 1-1. 적이 가까이 있고 폭탄 설치 가능하면 즉시 공격
+        if dist <= 3 and 'BOMB' in valid_actions:
             self.bomb_history.append((x, y))
             return 'BOMB'
-    
-    # 2. 목표 추적 (간단한 휴리스틱)
-    if enemies:
-        target = enemies[0]
-        dx = 1 if target[0] > x else -1 if target[0] < x else 0
-        dy = 1 if target[1] > y else -1 if target[1] < y else 0
         
-        if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
-            return 'RIGHT' if dx > 0 else 'LEFT'
-        if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
-            return 'DOWN' if dy > 0 else 'UP'
+        # 1-2. 적을 추적 (더 정교한 추적)
+        target_x, target_y = closest_enemy
+        dx = 1 if target_x > x else -1 if target_x < x else 0
+        dy = 1 if target_y > y else -1 if target_y < y else 0
+        
+        # 가로/세로 우선순위 결정 (더 먼 거리를 먼저 줄임)
+        if abs(target_x - x) > abs(target_y - y):
+            if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
+                return 'RIGHT' if dx > 0 else 'LEFT'
+            if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
+                return 'DOWN' if dy > 0 else 'UP'
+        else:
+            if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
+                return 'DOWN' if dy > 0 else 'UP'
+            if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
+                return 'RIGHT' if dx > 0 else 'LEFT'
     
-    # 3. 상자 파괴
-    for dx, dy, action in [(0, -1, 'UP'), (0, 1, 'DOWN'), (-1, 0, 'LEFT'), (1, 0, 'RIGHT')]:
+    # 2. 적이 없거나 추적 불가능한 경우, 길을 막는 상자 파괴
+    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
         nx, ny = x + dx, y + dy
         if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
             arena[nx, ny] == 1 and 'BOMB' in valid_actions):
             self.bomb_history.append((x, y))
             return 'BOMB'
+    
+    # 3. 코인 수집 (적이 없을 때)
+    coins = game_state['coins']
+    if coins and not enemies:
+        closest_coin = min(coins, key=lambda c: abs(c[0] - x) + abs(c[1] - y))
+        dx = 1 if closest_coin[0] > x else -1 if closest_coin[0] < x else 0
+        dy = 1 if closest_coin[1] > y else -1 if closest_coin[1] < y else 0
+        
+        if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
+            return 'RIGHT' if dx > 0 else 'LEFT'
+        if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
+            return 'DOWN' if dy > 0 else 'UP'
     
     # 4. 안전한 랜덤 이동
     if valid_actions:
@@ -231,31 +269,70 @@ def act_as_killer_optimized(self, game_state, valid_actions, enemies, bomb_xys):
     return 'WAIT' if 'WAIT' in valid_actions else valid_actions[0] if valid_actions else 'WAIT'
 
 def act_as_lurer_optimized(self, game_state, valid_actions, enemies, bomb_xys):
-    """최적화된 미끼 전략"""
+    """최적화된 루러 전략 - 코인 수집 최우선"""
     arena = game_state['field']
     _, _, _, (x, y) = game_state['self']
     coins = game_state['coins']
     
-    # 1. 코인 수집
+    # 1. [최우선] 코인 수집
     if coins:
         closest_coin = min(coins, key=lambda c: abs(c[0] - x) + abs(c[1] - y))
+        coin_dist = abs(closest_coin[0] - x) + abs(closest_coin[1] - y)
+        
+        # 1-1. 코인이 바로 옆에 있으면 이동
+        if coin_dist == 1:
+            dx = closest_coin[0] - x
+            dy = closest_coin[1] - y
+            if dx == 1 and 'RIGHT' in valid_actions: return 'RIGHT'
+            if dx == -1 and 'LEFT' in valid_actions: return 'LEFT'
+            if dy == 1 and 'DOWN' in valid_actions: return 'DOWN'
+            if dy == -1 and 'UP' in valid_actions: return 'UP'
+        
+        # 1-2. 코인으로 이동 (더 정교한 경로)
         dx = 1 if closest_coin[0] > x else -1 if closest_coin[0] < x else 0
         dy = 1 if closest_coin[1] > y else -1 if closest_coin[1] < y else 0
+        
+        # 가로/세로 우선순위 결정
+        if abs(closest_coin[0] - x) > abs(closest_coin[1] - y):
+            if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
+                return 'RIGHT' if dx > 0 else 'LEFT'
+            if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
+                return 'DOWN' if dy > 0 else 'UP'
+        else:
+            if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
+                return 'DOWN' if dy > 0 else 'UP'
+            if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
+                return 'RIGHT' if dx > 0 else 'LEFT'
+    
+    # 2. 코인이 없으면 상자 파괴로 코인 생성
+    if not coins:
+        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
+            nx, ny = x + dx, y + dy
+            if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
+                arena[nx, ny] == 1 and 'BOMB' in valid_actions):
+                self.bomb_history.append((x, y))
+                return 'BOMB'
+    
+    # 3. 방어적 폭탄 (적이 너무 가까이 왔을 때)
+    if enemies:
+        min_dist = min([abs(ex - x) + abs(ey - y) for ex, ey in enemies])
+        if min_dist <= 2 and 'BOMB' in valid_actions:
+            self.bomb_history.append((x, y))
+            return 'BOMB'
+    
+    # 4. 안전한 이동 (적으로부터 도망)
+    if enemies and valid_actions:
+        # 가장 가까운 적으로부터 멀어지기
+        closest_enemy = min(enemies, key=lambda e: abs(e[0] - x) + abs(e[1] - y))
+        dx = -1 if closest_enemy[0] > x else 1 if closest_enemy[0] < x else 0
+        dy = -1 if closest_enemy[1] > y else 1 if closest_enemy[1] < y else 0
         
         if dx != 0 and ('RIGHT' if dx > 0 else 'LEFT') in valid_actions:
             return 'RIGHT' if dx > 0 else 'LEFT'
         if dy != 0 and ('DOWN' if dy > 0 else 'UP') in valid_actions:
             return 'DOWN' if dy > 0 else 'UP'
     
-    # 2. 주변 상자 파괴
-    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
-        nx, ny = x + dx, y + dy
-        if (0 <= nx < arena.shape[0] and 0 <= ny < arena.shape[1] and
-            arena[nx, ny] == 1 and 'BOMB' in valid_actions):
-            self.bomb_history.append((x, y))
-            return 'BOMB'
-    
-    # 3. 안전한 이동
+    # 5. 기본 안전한 이동
     if valid_actions:
         safe_actions = [a for a in valid_actions if a != 'WAIT']
         if safe_actions:
