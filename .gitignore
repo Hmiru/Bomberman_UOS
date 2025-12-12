@@ -121,6 +121,10 @@ __pycache__/
 
 # Test logs
 test_logs/
-*.md
-./CLAUDE.md
 test_results/
+
+# Markdown files (except README.md)
+*.md
+!README.md
+CLAUDE.md
+mdfiles/
