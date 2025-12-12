@@ -103,6 +103,11 @@ def act(self, game_state):
     bomb_xys = [xy for (xy, t) in bombs]
     coins = game_state['coins']
     
+    # ROLE ASSIGNMENT: Attacker (wolf_0) vs Lurer (wolf_1)
+    is_attacker = my_name.endswith('_0')
+    role = "ATTACKER" if is_attacker else "LURER"
+    self.logger.info(f'Agent {my_name} acting as {role}')
+    
     # TEAM RECOGNITION FEATURE
     # Identify team prefix from agent name (e.g., "wolf_0", "wolf_1" -> team "wolf")
     team_prefix = "wolf"  # Our team name
@@ -173,11 +178,41 @@ def act(self, game_state):
     dead_ends = [(x, y) for x in cols for y in rows if (arena[x, y] == 0)
                  and ([arena[x + 1, y], arena[x - 1, y], arena[x, y + 1], arena[x, y - 1]].count(0) == 1)]
     crates = [(x, y) for x in cols for y in rows if (arena[x, y] == 1)]
-    targets = coins + dead_ends + crates
     
-    # Add ONLY ENEMIES as targets (not teammates) if in hunting mode or no crates/coins left
-    if self.ignore_others_timer <= 0 or (len(crates) + len(coins) == 0):
-        targets.extend(enemies)  # Only add enemies, not teammates
+    # ROLE-BASED TARGET PRIORITIZATION
+    if is_attacker:
+        # ATTACKER: Prioritize enemies, then crates, then coins
+        targets = []
+        # Always hunt enemies if they exist
+        if enemies:
+            targets.extend(enemies)
+            self.logger.debug(f'ATTACKER {my_name}: Prioritizing {len(enemies)} enemies')
+        # Add crates for area control
+        targets.extend(crates[:5])  # Limit crates to avoid getting stuck
+        # Add dead ends for strategic bombing
+        targets.extend(dead_ends[:3])
+        # Coins are lowest priority for attacker
+        if len(targets) < 5:
+            targets.extend(coins)
+    else:
+        # LURER: Prioritize coins, then crates, avoid direct confrontation
+        targets = []
+        # Coins are highest priority for lurer
+        targets.extend(coins)
+        self.logger.debug(f'LURER {my_name}: Prioritizing {len(coins)} coins')
+        # Add crates for opening paths
+        targets.extend(crates[:5])
+        # Add dead ends for tactical positioning
+        targets.extend(dead_ends[:2])
+        # Only add enemies if no other targets or cornered
+        if self.ignore_others_timer <= 0 and (len(crates) + len(coins) == 0):
+            targets.extend(enemies)
+        elif len(enemies) > 0:
+            # Lurer should maintain distance from enemies but be aware of them
+            closest_enemy_dist = min(abs(ex - x) + abs(ey - y) for ex, ey in enemies)
+            if closest_enemy_dist <= 3:
+                # If enemy is too close, prepare for defense
+                self.logger.debug(f'LURER {my_name}: Enemy too close ({closest_enemy_dist}), defensive mode')
 
     # Exclude targets that are currently occupied by a bomb
     targets = [targets[i] for i in range(len(targets)) if targets[i] not in bomb_xys]
@@ -210,9 +245,17 @@ def act(self, game_state):
     
     # Add proposal to drop a bomb if touching an ENEMY (not teammate)
     if len(enemies) > 0:
-        if (min(abs(xy[0] - x) + abs(xy[1] - y) for xy in enemies)) <= 1:
-            action_ideas.append('BOMB')
-            self.logger.info(f'Agent {my_name}: Enemy nearby, proposing bomb!')
+        min_enemy_dist = min(abs(xy[0] - x) + abs(xy[1] - y) for xy in enemies)
+        if is_attacker:
+            # ATTACKER: More aggressive bombing
+            if min_enemy_dist <= 2:  # Bomb from further away
+                action_ideas.append('BOMB')
+                self.logger.info(f'ATTACKER {my_name}: Enemy at distance {min_enemy_dist}, proposing bomb!')
+        else:
+            # LURER: Only bomb when cornered or very close
+            if min_enemy_dist <= 1:
+                action_ideas.append('BOMB')
+                self.logger.info(f'LURER {my_name}: Enemy too close ({min_enemy_dist}), defensive bomb!')
     
     # Add proposal to drop a bomb if arrived at target and touching crate
     if d == (x, y) and ([arena[x + 1, y], arena[x - 1, y], arena[x, y + 1], arena[x, y - 1]].count(1) > 0):
@@ -227,6 +270,9 @@ def act(self, game_state):
             # If possible, turn a corner
             action_ideas.append('LEFT')
             action_ideas.append('RIGHT')
+            # Role-specific: Lurer prioritizes escape more
+            if not is_attacker:
+                action_ideas.append('UP' if yb > y else 'DOWN')
         if (yb == y) and (abs(xb - x) < 4):
             # Run away
             if (xb > x): action_ideas.append('LEFT')
@@ -234,6 +280,9 @@ def act(self, game_state):
             # If possible, turn a corner
             action_ideas.append('UP')
             action_ideas.append('DOWN')
+            # Role-specific: Lurer prioritizes escape more
+            if not is_attacker:
+                action_ideas.append('LEFT' if xb > x else 'RIGHT')
     
     # Try random direction if directly on top of a bomb
     for (xb, yb), t in bombs:
