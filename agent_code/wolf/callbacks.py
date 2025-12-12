@@ -133,24 +133,58 @@ def act(self, game_state):
     # Log team information
     self.logger.info(f'Agent {my_name}: {len(teammates)} teammates, {len(enemies)} enemies')
     
-    # ENDGAME: If only teammates remain, handle sacrifice scenario
-    if len(enemies) == 0 and len(teammates) > 0:
-        if is_attacker:
-            # ATTACKER: Stop moving and wait to be eliminated by LURER
-            self.logger.info(f'ENDGAME: ATTACKER {my_name} waiting for LURER to eliminate')
-            return 'WAIT'  # Just wait, don't move or bomb
+    # ENDGAME SCENARIOS
+    # Scenario 1: Only one wolf remains (no teammates) - act like rule_based
+    if len(teammates) == 0:
+        # Single survivor mode - both roles act normally
+        self.logger.info(f'{role} {my_name}: Last wolf standing, switching to standard mode')
+        # Continue with normal rule_based logic (no special behavior)
+    
+    # Scenario 2: Two wolves remain with enemies - both hunt enemies
+    elif len(enemies) > 0 and len(teammates) > 0:
+        # Both wolves should hunt enemies aggressively
+        if not is_attacker:
+            # LURER also becomes aggressive in endgame with enemies
+            self.logger.info(f'ENDGAME: LURER {my_name} switching to aggressive mode')
+            # Will use normal target prioritization but be more aggressive
+    
+    # Scenario 3: Only teammates remain (no enemies) - score-based sacrifice
+    elif len(enemies) == 0 and len(teammates) > 0:
+        # Compare scores to determine who sacrifices
+        my_score = score  # My score from game_state
+        
+        # Find teammate's score
+        teammate_score = -1
+        teammate_name = None
+        teammate_pos = None
+        for n, s, b, xy in teammates:
+            teammate_score = s
+            teammate_name = n
+            teammate_pos = xy
+            break
+        
+        self.logger.info(f'ENDGAME: {my_name} (score: {my_score}) vs {teammate_name} (score: {teammate_score})')
+        
+        # Higher score hunts, lower score sacrifices
+        if my_score > teammate_score:
+            # I have higher score - hunt teammate
+            self.logger.info(f'ENDGAME: {my_name} has higher score ({my_score} > {teammate_score}), hunting {teammate_name}')
+            if teammate_pos:
+                enemies.append(teammate_pos)
+                # Continue with normal logic to hunt
+        elif my_score < teammate_score:
+            # I have lower score - sacrifice
+            self.logger.info(f'ENDGAME: {my_name} has lower score ({my_score} < {teammate_score}), sacrificing')
+            return 'WAIT'  # Just wait to be eliminated
         else:
-            # LURER: Hunt the ATTACKER teammate
-            self.logger.info(f'ENDGAME: LURER {my_name} hunting ATTACKER teammate')
-            # Find attacker teammate position
-            attacker_pos = None
-            for n, s, b, xy in teammates:
-                if n.endswith('_0'):  # Attacker
-                    attacker_pos = xy
-                    # Add attacker to enemies list to hunt them
-                    enemies.append(xy)
-                    self.logger.info(f'LURER {my_name}: Targeting teammate {n} at {xy}')
-                    break
+            # Tied score - use role as tiebreaker (ATTACKER sacrifices)
+            if is_attacker:
+                self.logger.info(f'ENDGAME: Tied score, ATTACKER {my_name} sacrificing')
+                return 'WAIT'
+            else:
+                self.logger.info(f'ENDGAME: Tied score, LURER {my_name} hunting')
+                if teammate_pos:
+                    enemies.append(teammate_pos)
     
     # Calculate bomb danger map
     bomb_map = np.ones(arena.shape) * 5
@@ -199,17 +233,32 @@ def act(self, game_state):
     crates = [(x, y) for x in cols for y in rows if (arena[x, y] == 1)]
     
     # ROLE-BASED TARGET PRIORITIZATION
-    if is_attacker:
-        # ATTACKER: Focus on hunting enemies
+    # Check if in aggressive endgame mode (2 wolves + enemies remain)
+    aggressive_endgame = len(enemies) > 0 and len(teammates) == 1  # Exactly 2 wolves, some enemies
+    
+    if is_attacker or (not is_attacker and len(teammates) == 0):
+        # ATTACKER: Always hunt enemies
+        # OR single wolf survivor: act like attacker
         targets = []
         if enemies:
             targets = enemies.copy()  # Enemies are top priority
-            self.logger.debug(f'ATTACKER {my_name}: Hunting {len(enemies)} enemies')
+            self.logger.debug(f'{role} {my_name}: Hunting {len(enemies)} enemies')
         else:
             # No enemies, help with crates
             targets = crates[:5] + dead_ends[:3]
+            if coins:
+                targets.extend(coins)  # Also collect coins if available
+    elif not is_attacker and aggressive_endgame:
+        # LURER in aggressive endgame: Also hunt enemies
+        targets = []
+        if enemies:
+            targets = enemies.copy()  # Switch to hunting enemies
+            self.logger.debug(f'LURER {my_name}: AGGRESSIVE MODE - Hunting {len(enemies)} enemies')
+        if coins and len(targets) < 3:
+            targets.extend(coins)  # Still collect coins if easy
+        targets.extend(crates[:3])
     else:
-        # LURER: Focus on collecting coins
+        # LURER: Normal mode - Focus on collecting coins
         targets = []
         if coins:
             targets = coins.copy()  # Coins are top priority
@@ -261,20 +310,31 @@ def act(self, game_state):
     # Role-based bombing strategy
     if len(enemies) > 0:
         min_enemy_dist = min(abs(xy[0] - x) + abs(xy[1] - y) for xy in enemies)
-        if is_attacker:
-            # ATTACKER: Aggressive bombing when enemy is close
+        
+        # Check game state
+        aggressive_endgame = len(enemies) > 0 and len(teammates) == 1
+        single_survivor = len(teammates) == 0
+        
+        if is_attacker or single_survivor:
+            # ATTACKER or single survivor: Aggressive bombing
             if min_enemy_dist <= 1:
                 action_ideas.append('BOMB')
-                self.logger.info(f'ATTACKER {my_name}: Enemy adjacent, bombing!')
+                self.logger.info(f'{role} {my_name}: Enemy adjacent, bombing!')
         else:
-            # LURER: Bomb enemies (including ATTACKER in endgame)
+            # LURER: Context-dependent bombing
             if min_enemy_dist <= 1:
-                # Check if this is endgame and we're targeting teammate
-                is_endgame = any(xy in teammate_positions for xy in enemies)
-                if is_endgame:
+                # Check if this is sacrifice endgame (targeting teammate)
+                is_sacrifice_endgame = any(xy in teammate_positions for xy in enemies)
+                
+                if is_sacrifice_endgame:
                     action_ideas.append('BOMB')
                     self.logger.info(f'LURER {my_name}: Eliminating ATTACKER teammate!')
+                elif aggressive_endgame:
+                    # Aggressive mode: bomb enemies like attacker
+                    action_ideas.append('BOMB')
+                    self.logger.info(f'LURER {my_name}: AGGRESSIVE - Bombing enemy!')
                 elif len(valid_actions) <= 2:
+                    # Normal mode: only bomb if cornered
                     action_ideas.append('BOMB')
                     self.logger.info(f'LURER {my_name}: Cornered by enemy, defensive bomb!')
     
