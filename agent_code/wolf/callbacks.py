@@ -133,6 +133,25 @@ def act(self, game_state):
     # Log team information
     self.logger.info(f'Agent {my_name}: {len(teammates)} teammates, {len(enemies)} enemies')
     
+    # ENDGAME: If only teammates remain, handle sacrifice scenario
+    if len(enemies) == 0 and len(teammates) > 0:
+        if is_attacker:
+            # ATTACKER: Stop moving and wait to be eliminated by LURER
+            self.logger.info(f'ENDGAME: ATTACKER {my_name} waiting for LURER to eliminate')
+            return 'WAIT'  # Just wait, don't move or bomb
+        else:
+            # LURER: Hunt the ATTACKER teammate
+            self.logger.info(f'ENDGAME: LURER {my_name} hunting ATTACKER teammate')
+            # Find attacker teammate position
+            attacker_pos = None
+            for n, s, b, xy in teammates:
+                if n.endswith('_0'):  # Attacker
+                    attacker_pos = xy
+                    # Add attacker to enemies list to hunt them
+                    enemies.append(xy)
+                    self.logger.info(f'LURER {my_name}: Targeting teammate {n} at {xy}')
+                    break
+    
     # Calculate bomb danger map
     bomb_map = np.ones(arena.shape) * 5
     for (xb, yb), t in bombs:
@@ -172,7 +191,7 @@ def act(self, game_state):
     action_ideas = ['UP', 'DOWN', 'LEFT', 'RIGHT']
     shuffle(action_ideas)
 
-    # Compile a list of 'targets' the agent should head towards
+    # Compile a list of 'targets' the agent should head towards based on role
     cols = range(1, arena.shape[0] - 1)
     rows = range(1, arena.shape[0] - 1)
     dead_ends = [(x, y) for x in cols for y in rows if (arena[x, y] == 0)
@@ -181,38 +200,31 @@ def act(self, game_state):
     
     # ROLE-BASED TARGET PRIORITIZATION
     if is_attacker:
-        # ATTACKER: Prioritize enemies, then crates, then coins
+        # ATTACKER: Focus on hunting enemies
         targets = []
-        # Always hunt enemies if they exist
         if enemies:
-            targets.extend(enemies)
-            self.logger.debug(f'ATTACKER {my_name}: Prioritizing {len(enemies)} enemies')
-        # Add crates for area control
-        targets.extend(crates[:5])  # Limit crates to avoid getting stuck
-        # Add dead ends for strategic bombing
-        targets.extend(dead_ends[:3])
-        # Coins are lowest priority for attacker
-        if len(targets) < 5:
-            targets.extend(coins)
+            targets = enemies.copy()  # Enemies are top priority
+            self.logger.debug(f'ATTACKER {my_name}: Hunting {len(enemies)} enemies')
+        else:
+            # No enemies, help with crates
+            targets = crates[:5] + dead_ends[:3]
     else:
-        # LURER: Prioritize coins, then crates, avoid direct confrontation
+        # LURER: Focus on collecting coins
         targets = []
-        # Coins are highest priority for lurer
-        targets.extend(coins)
-        self.logger.debug(f'LURER {my_name}: Prioritizing {len(coins)} coins')
-        # Add crates for opening paths
-        targets.extend(crates[:5])
-        # Add dead ends for tactical positioning
-        targets.extend(dead_ends[:2])
-        # Only add enemies if no other targets or cornered
-        if self.ignore_others_timer <= 0 and (len(crates) + len(coins) == 0):
+        if coins:
+            targets = coins.copy()  # Coins are top priority
+            self.logger.debug(f'LURER {my_name}: Collecting {len(coins)} coins')
+        else:
+            # No coins, work on crates to find more
+            targets = crates[:5] + dead_ends[:2]
+        
+        # Lurer avoids enemies unless cornered
+        if self.ignore_others_timer > 0 or len(coins) > 0:
+            # Don't add enemies to targets
+            pass
+        elif len(crates) + len(coins) == 0:
+            # Only hunt if no other options
             targets.extend(enemies)
-        elif len(enemies) > 0:
-            # Lurer should maintain distance from enemies but be aware of them
-            closest_enemy_dist = min(abs(ex - x) + abs(ey - y) for ex, ey in enemies)
-            if closest_enemy_dist <= 3:
-                # If enemy is too close, prepare for defense
-                self.logger.debug(f'LURER {my_name}: Enemy too close ({closest_enemy_dist}), defensive mode')
 
     # Exclude targets that are currently occupied by a bomb
     targets = [targets[i] for i in range(len(targets)) if targets[i] not in bomb_xys]
@@ -221,9 +233,12 @@ def act(self, game_state):
     free_space = arena == 0
     
     # Mark teammate positions as obstacles to avoid them during pathfinding
-    for tp in teammate_positions:
-        if 0 <= tp[0] < free_space.shape[0] and 0 <= tp[1] < free_space.shape[1]:
-            free_space[tp] = False
+    # BUT in endgame, LURER should not avoid ATTACKER
+    is_endgame = len(enemies) > 0 and any(xy in teammate_positions for xy in enemies)
+    if not (is_endgame and not is_attacker):
+        for tp in teammate_positions:
+            if 0 <= tp[0] < free_space.shape[0] and 0 <= tp[1] < free_space.shape[1]:
+                free_space[tp] = False
     
     # Also avoid enemies when in ignore mode
     if self.ignore_others_timer > 0:
@@ -243,19 +258,25 @@ def act(self, game_state):
     if (x, y) in dead_ends:
         action_ideas.append('BOMB')
     
-    # Add proposal to drop a bomb if touching an ENEMY (not teammate)
+    # Role-based bombing strategy
     if len(enemies) > 0:
         min_enemy_dist = min(abs(xy[0] - x) + abs(xy[1] - y) for xy in enemies)
         if is_attacker:
-            # ATTACKER: More aggressive bombing
-            if min_enemy_dist <= 2:  # Bomb from further away
-                action_ideas.append('BOMB')
-                self.logger.info(f'ATTACKER {my_name}: Enemy at distance {min_enemy_dist}, proposing bomb!')
-        else:
-            # LURER: Only bomb when cornered or very close
+            # ATTACKER: Aggressive bombing when enemy is close
             if min_enemy_dist <= 1:
                 action_ideas.append('BOMB')
-                self.logger.info(f'LURER {my_name}: Enemy too close ({min_enemy_dist}), defensive bomb!')
+                self.logger.info(f'ATTACKER {my_name}: Enemy adjacent, bombing!')
+        else:
+            # LURER: Bomb enemies (including ATTACKER in endgame)
+            if min_enemy_dist <= 1:
+                # Check if this is endgame and we're targeting teammate
+                is_endgame = any(xy in teammate_positions for xy in enemies)
+                if is_endgame:
+                    action_ideas.append('BOMB')
+                    self.logger.info(f'LURER {my_name}: Eliminating ATTACKER teammate!')
+                elif len(valid_actions) <= 2:
+                    action_ideas.append('BOMB')
+                    self.logger.info(f'LURER {my_name}: Cornered by enemy, defensive bomb!')
     
     # Add proposal to drop a bomb if arrived at target and touching crate
     if d == (x, y) and ([arena[x + 1, y], arena[x - 1, y], arena[x, y + 1], arena[x, y - 1]].count(1) > 0):
@@ -270,9 +291,6 @@ def act(self, game_state):
             # If possible, turn a corner
             action_ideas.append('LEFT')
             action_ideas.append('RIGHT')
-            # Role-specific: Lurer prioritizes escape more
-            if not is_attacker:
-                action_ideas.append('UP' if yb > y else 'DOWN')
         if (yb == y) and (abs(xb - x) < 4):
             # Run away
             if (xb > x): action_ideas.append('LEFT')
@@ -280,9 +298,6 @@ def act(self, game_state):
             # If possible, turn a corner
             action_ideas.append('UP')
             action_ideas.append('DOWN')
-            # Role-specific: Lurer prioritizes escape more
-            if not is_attacker:
-                action_ideas.append('LEFT' if xb > x else 'RIGHT')
     
     # Try random direction if directly on top of a bomb
     for (xb, yb), t in bombs:
@@ -298,5 +313,5 @@ def act(self, game_state):
                 self.bomb_history.append((x, y))
             
             # Log the chosen action with team context
-            self.logger.info(f'Agent {my_name} choosing action: {a}')
+            self.logger.info(f'Agent {my_name} ({role}) choosing action: {a}')
             return a
