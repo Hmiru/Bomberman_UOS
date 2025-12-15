@@ -92,24 +92,20 @@ def train_step(self):
     self.optimizer.zero_grad()
     loss.backward()
     self.optimizer.step()
-
+    
 def reward_from_events(self, events: List[str]) -> int:
-    """보상 함수 정의 (이 부분을 전략에 맞게 수정하세요!)"""
     reward_sum = 0
-    if e.COIN_COLLECTED in events:
-        reward_sum += 10
-    if e.KILLED_OPPONENT in events:
-        reward_sum += 50
-    if e.GOT_KILLED in events or e.KILLED_SELF in events:
-        reward_sum -= 50
-    if e.INVALID_ACTION in events:
-        reward_sum -= 1
-    if e.WAITED in events:
-        reward_sum -= 0.1
-    if PLACE_BOMB in events:
-        reward_sum += 2  
-        
-    # 2. 상자 파괴 보상 강화
-    if e.CRATE_DESTROYED in events:
-        reward_sum += 10 # 상자를 깨는 행위에 더 큰 보상
+    
+    # [보상]
+    if e.COIN_COLLECTED in events: reward_sum += 10
+    if e.KILLED_OPPONENT in events: reward_sum += 50
+    if e.CRATE_DESTROYED in events: reward_sum += 20  # 상자 깨기 보상 강화
+    
+    # [패널티]
+    if e.GOT_KILLED in events or e.KILLED_SELF in events: reward_sum -= 100
+    if e.INVALID_ACTION in events: reward_sum -= 5
+    
+    # [중요] 쉬지 말고 움직여라!
+    if e.WAITED in events: reward_sum -= 1  # 패널티 강화 (-0.3 -> -1)
+    
     return reward_sum
