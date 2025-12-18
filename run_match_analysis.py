@@ -31,24 +31,27 @@ def run_match(round_num):
     # Look for final scores in the output
     lines = output.split('\n')
     for line in lines:
-        print(lines)
-        if "Agent" in line and "score" in line.lower():
-            # Extract agent name and score from lines like "Agent rule_based_agent (0): Score: 5"
-            match = re.search(r'Agent (\w+_?\w*)\s*\((\d+)\).*[Ss]core:\s*(-?\d+)', line)
-            print(output)
+        # Look for lines containing final scores
+        if "final" in line.lower() or "score" in line.lower():
+            # Try different patterns for score extraction
+            # Pattern 1: "Agent name (id) score: X"
+            match = re.search(r'(\w+(?:_\w+)*)\s*\((\d+)\)[:\s]*score[:\s]*(-?\d+)', line, re.IGNORECASE)
+            if not match:
+                # Pattern 2: "name (id): X points"
+                match = re.search(r'(\w+(?:_\w+)*)\s*\((\d+)\)[:\s]*(-?\d+)\s*points?', line, re.IGNORECASE)
+            
             if match:
                 agent_type = match.group(1)
                 agent_id = int(match.group(2))
                 score = int(match.group(3))
-                print(output)
-                if agent_type == "rule_based_agent":
+                
+                if "rule_based" in agent_type.lower():
                     if agent_id == 0:
                         scores["rule_based_agent_0"] = score
                     else:
                         scores["rule_based_agent_1"] = score
-                elif agent_type == "wolf":
+                elif "wolf" in agent_type.lower():
                     if agent_id == 0:
-                        
                         scores["wolf_0"] = score
                     else:
                         scores["wolf_1"] = score
@@ -102,9 +105,9 @@ def main():
         fieldnames = [
             'round', 
             'rule_based_agent_0_score', 
-            'wolf_agent_0_score',
+            'wolf_0_score',
             'rule_based_agent_1_score',
-            'wolf_agent_1_score',
+            'wolf_1_score',
             'rule_based_total',
             'wolf_total',
             'winner'
@@ -120,7 +123,7 @@ def main():
     
     # Calculate statistics
     rule_based_wins = sum(1 for r in results if r['winner'] == 'rule_based_agent')
-    wolf_wins = sum(1 for r in results if r['winner'] == 'wolf_agent')
+    wolf_wins = sum(1 for r in results if r['winner'] == 'wolf')
     draws = sum(1 for r in results if r['winner'] == 'draw')
     
     total_rule_based_score = sum(r['rule_based_total'] for r in results)
