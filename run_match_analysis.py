@@ -9,9 +9,9 @@ def run_match(round_num):
     """Run a single match and capture the results"""
     cmd = [
         "python", "main.py", "play",
-        "--agents", "rule_based_agent", "wolf_agent", "rule_based_agent", "wolf_agent",
+        "--agents", "rule_based_agent", "wolf", "rule_based_agent", "wolf",
         "--no-gui",
-        "--n-rounds", "1",
+        "--n-rounds", "10",
         "--silence-errors"
     ]
     
@@ -22,33 +22,36 @@ def run_match(round_num):
     
     # Initialize scores
     scores = {
+        "rule_based_agent_0": 0,
+        "wolf_0": 0,
         "rule_based_agent_1": 0,
-        "wolf_agent_1": 0,
-        "rule_based_agent_2": 0,
-        "wolf_agent_2": 0
+        "wolf_1": 0
     }
     
     # Look for final scores in the output
     lines = output.split('\n')
     for line in lines:
+        print(lines)
         if "Agent" in line and "score" in line.lower():
             # Extract agent name and score from lines like "Agent rule_based_agent (0): Score: 5"
             match = re.search(r'Agent (\w+_?\w*)\s*\((\d+)\).*[Ss]core:\s*(-?\d+)', line)
+            print(output)
             if match:
                 agent_type = match.group(1)
                 agent_id = int(match.group(2))
                 score = int(match.group(3))
-                
+                print(output)
                 if agent_type == "rule_based_agent":
                     if agent_id == 0:
+                        scores["rule_based_agent_0"] = score
+                    else:
                         scores["rule_based_agent_1"] = score
+                elif agent_type == "wolf":
+                    if agent_id == 0:
+                        
+                        scores["wolf_0"] = score
                     else:
-                        scores["rule_based_agent_2"] = score
-                elif agent_type == "wolf_agent":
-                    if agent_id == 1:
-                        scores["wolf_agent_1"] = score
-                    else:
-                        scores["wolf_agent_2"] = score
+                        scores["wolf_1"] = score
     
     # Check for winner in output
     winner = None
@@ -56,19 +59,19 @@ def run_match(round_num):
         if "wins" in line.lower() or "winner" in line.lower():
             if "rule_based_agent" in line.lower():
                 winner = "rule_based_agent"
-            elif "wolf_agent" in line.lower():
-                winner = "wolf_agent"
+            elif "wolf" in line.lower():
+                winner = "wolf"
             elif "draw" in line.lower() or "tie" in line.lower():
                 winner = "draw"
     
     return {
         "round": round_num,
+        "rule_based_agent_0_score": scores["rule_based_agent_0"],
         "rule_based_agent_1_score": scores["rule_based_agent_1"],
-        "wolf_agent_1_score": scores["wolf_agent_1"],
-        "rule_based_agent_2_score": scores["rule_based_agent_2"],
-        "wolf_agent_2_score": scores["wolf_agent_2"],
-        "rule_based_total": scores["rule_based_agent_1"] + scores["rule_based_agent_2"],
-        "wolf_total": scores["wolf_agent_1"] + scores["wolf_agent_2"],
+        "wolf_0_score": scores["wolf_0"],
+        "wolf_1_score": scores["wolf_1"],
+        "rule_based_total": scores["rule_based_agent_0"] + scores["rule_based_agent_1"],
+        "wolf_total": scores["wolf_0"] + scores["wolf_1"],
         "winner": winner
     }
 
@@ -98,10 +101,10 @@ def main():
     with open(csv_filename, 'w', newline='') as csvfile:
         fieldnames = [
             'round', 
-            'rule_based_agent_1_score', 
+            'rule_based_agent_0_score', 
+            'wolf_agent_0_score',
+            'rule_based_agent_1_score',
             'wolf_agent_1_score',
-            'rule_based_agent_2_score',
-            'wolf_agent_2_score',
             'rule_based_total',
             'wolf_total',
             'winner'
