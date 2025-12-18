@@ -10,12 +10,12 @@ result = subprocess.run([sys.executable, "main.py", "play",
 print("Random agents test:", "SUCCESS" if result.returncode == 0 else "FAILED")
 
 # Test 2: Totoro vs Rule-based
-print("\nTest 2: Totoro vs Rule-based...")
+print("\nTest 2: Wolf vs Rule-based...")
 result = subprocess.run([sys.executable, "main.py", "play",
-                        "--agents", "totoro", "totoro", "rule_based_agent", "rule_based_agent", 
+                        "--agents", "wolf", "wolf", "rule_based_agent", "rule_based_agent", 
                         "--n-rounds", "1", "--no-gui"],
                        capture_output=True, text=True, timeout=30)
-print("Totoro test:", "SUCCESS" if result.returncode == 0 else "FAILED")
+print("Wolf test:", "SUCCESS" if result.returncode == 0 else "FAILED")
 
 if result.returncode != 0:
     print("\nError output:")
